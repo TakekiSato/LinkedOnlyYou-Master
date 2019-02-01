@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &177398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 459260}
+  - component: {fileID: 11496476}
+  m_Layer: 0
+  m_Name: Pencil+ Brush Detail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11496476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1437907861, guid: 41e71ed3aed1f7e498525ee71e76718d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrushType: 2
+  BrushMap: {fileID: 0}
+  MapOpacity: 1
+  Stretch: 0
+  StretchRandom: 0
+  Angle: 0
+  AngleRandom: 0
+  Groove: 0
+  GrooveNumber: 5
+  Size: 16
+  SizeRandom: 0.8
+  Antialiasing: 0.5
+  HorizontalSpace: 0.1
+  HorizontalSpaceRandom: 0.1
+  VerticalSpace: 0.1
+  VerticalSpaceRandom: 1
+  ReductionStart: 1
+  ReductionEnd: 1
+  StrokeType: 0
+  LineType: 0
+  Length: 5
+  LengthRandom: 0
+  Space: 5
+  SpaceRandom: 0
+  LengthSizeRandom: 0
+  Extend: 0
+  ExtendRandom: 0
+  LineCopy: 1
+  LineCopyRandom: 0
+  NormalOffset: 0
+  NormalOffsetRandom: 0
+  XOffset: 0
+  XOffsetRandom: 0
+  YOffset: 0
+  YOffsetRandom: 0
+  LineSplitAngle: 90
+  MinLineLength: 0
+  LineLinkLength: 2
+  LineDirection: -30
+  LoopDirectionType: 0
+  DistortionEnable: 0
+  DistortionMap: {fileID: 0}
+  MapAmount: 5
+  Amount: 5
+  Random: 0
+  Cycles: 100
+  CyclesRandom: 0
+  Phase: 0
+  PhaseRandom: 0
+  SizeReductionEnable: 0
+  SizeReductionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.75
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  AlphaReductionEnable: 0
+  AlphaReductionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.75
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  ColorSpaceType: 0
+  ColorRed: 0
+  ColorGreen: 0
+  ColorBlue: 0
+  ColorHue: 0
+  ColorSaturation: 0
+  ColorValue: 0
