@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/tokita/TitleScene.unity
+    guid: 7780ec0259468ca4da9caf12d2e21d89
+  - enabled: 1
+    path: Assets/tokita/ChatScene.unity
+    guid: 3031b970248907943879f0925823dced
+  - enabled: 1
+    path: Assets/tokita/VideoScene.unity
+    guid: b6d86c621186a9e43a29fa2a361cf48d
+  - enabled: 1
+    path: Assets/tokita/EndScene.unity
+    guid: 58b0c286a483eff4baf6010a792fb45d
   m_configObjects: {}
