@@ -2,17 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VideoSceneController : MonoBehaviour
+public enum InitModel : int
 {
-    // Start is called before the first frame update
-    void Start()
+    Model_Ran,
+    Model_Yu,
+    Model_Kaoru,
+    None = 99
+}
+
+public class VideoSceneController : MonoBehaviour, ISceneManager
+{
+
+    [SerializeField] InitModel initModel = InitModel.None;
+    ModelLoad modelLoad;
+
+    public void Initialize()
     {
-        
+        modelLoad = new ModelLoad();
+        StartCoroutine(modelLoad.Load(initModel));
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            TransScene();
+        }
+    }
+
+    public void TransScene()
+    {
+        Main main = Main.instance;
+        main.GoNext(SceneName.EndScene);
     }
 }

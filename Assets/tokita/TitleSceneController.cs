@@ -2,10 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TitleSceneController : MonoBehaviour
+public class TitleSceneController : MonoBehaviour, ISceneManager
 {
-    void Awake()
+
+    public void Initialize()
     {
         
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            TransScene();
+        }
+    }
+
+    public void TransScene()
+    {
+        //遷移やり方
+        Main main = Main.instance;
+        main.GoNext(SceneName.ChatScene);
     }
 }
