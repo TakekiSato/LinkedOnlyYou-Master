@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46310eab1756103468f75226dca3ff51
+guid: 5b37e48ec0ab4b043b618dc53ba9b15d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -445,26 +445,24 @@ ModelImporter:
     100878: Bone263
     100880: Bone264
     100882: //RootNode
-    100884: Spot001
-    100886: Spot001.Target
-    100888: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    100890: "\u30D1\u30F3\u30C0"
-    100892: "\u30D1\u30F3\u30C002"
-    100894: "\u30DC\u30BF\u30F3_tex"
-    100896: "\u30E1\u30AC\u30CD_tex"
-    100898: "\u30EA\u30DC\u30F3_tex"
-    100900: "\u4E09\u3064\u7DE8\u307F_tex"
-    100902: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    100904: "\u624B_tex"
-    100906: "\u6905\u5B50\uFF3F\u5EA7"
-    100908: "\u6905\u5B50\uFF3F\u811A"
-    100910: "\u6B6F\u3000\u4E0A_tex"
-    100912: "\u6B6F\u3000\u4E0B_tex"
-    100914: "\u77B302_tex"
-    100916: "\u77B3_tex"
-    100918: "\u895F\u8DB3_tex"
-    100920: "\u90E8\u5C4B\u7740_tex"
-    100922: "\u982D_tex"
+    100884: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    100886: "\u30D1\u30F3\u30C0"
+    100888: "\u30D1\u30F3\u30C002"
+    100890: "\u30DC\u30BF\u30F3_tex"
+    100892: "\u30E1\u30AC\u30CD_tex"
+    100894: "\u30EA\u30DC\u30F3_tex"
+    100896: "\u4E09\u3064\u7DE8\u307F_tex"
+    100898: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    100900: "\u624B_tex"
+    100902: "\u6905\u5B50\uFF3F\u5EA7"
+    100904: "\u6905\u5B50\uFF3F\u811A"
+    100906: "\u6B6F\u3000\u4E0A_tex"
+    100908: "\u6B6F\u3000\u4E0B_tex"
+    100910: "\u77B302_tex"
+    100912: "\u77B3_tex"
+    100914: "\u895F\u8DB3_tex"
+    100916: "\u90E8\u5C4B\u7740_tex"
+    100918: "\u982D_tex"
     400000: 01_tex_phy
     400002: 01_tex_phy 1
     400004: 03_tex_phy
@@ -907,26 +905,24 @@ ModelImporter:
     400878: Bone263
     400880: Bone264
     400882: //RootNode
-    400884: Spot001
-    400886: Spot001.Target
-    400888: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    400890: "\u30D1\u30F3\u30C0"
-    400892: "\u30D1\u30F3\u30C002"
-    400894: "\u30DC\u30BF\u30F3_tex"
-    400896: "\u30E1\u30AC\u30CD_tex"
-    400898: "\u30EA\u30DC\u30F3_tex"
-    400900: "\u4E09\u3064\u7DE8\u307F_tex"
-    400902: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    400904: "\u624B_tex"
-    400906: "\u6905\u5B50\uFF3F\u5EA7"
-    400908: "\u6905\u5B50\uFF3F\u811A"
-    400910: "\u6B6F\u3000\u4E0A_tex"
-    400912: "\u6B6F\u3000\u4E0B_tex"
-    400914: "\u77B302_tex"
-    400916: "\u77B3_tex"
-    400918: "\u895F\u8DB3_tex"
-    400920: "\u90E8\u5C4B\u7740_tex"
-    400922: "\u982D_tex"
+    400884: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    400886: "\u30D1\u30F3\u30C0"
+    400888: "\u30D1\u30F3\u30C002"
+    400890: "\u30DC\u30BF\u30F3_tex"
+    400892: "\u30E1\u30AC\u30CD_tex"
+    400894: "\u30EA\u30DC\u30F3_tex"
+    400896: "\u4E09\u3064\u7DE8\u307F_tex"
+    400898: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    400900: "\u624B_tex"
+    400902: "\u6905\u5B50\uFF3F\u5EA7"
+    400904: "\u6905\u5B50\uFF3F\u811A"
+    400906: "\u6B6F\u3000\u4E0A_tex"
+    400908: "\u6B6F\u3000\u4E0B_tex"
+    400910: "\u77B302_tex"
+    400912: "\u77B3_tex"
+    400914: "\u895F\u8DB3_tex"
+    400916: "\u90E8\u5C4B\u7740_tex"
+    400918: "\u982D_tex"
     2100000: face
     2100002: rw
     2100004: 21 - Default
@@ -1026,9 +1022,8 @@ ModelImporter:
     4300128: 46_tex_phy
     4300130: "\u6905\u5B50\uFF3F\u5EA7"
     4300132: "\u6905\u5B50\uFF3F\u811A"
-    7400000: Waiting
+    7400000: Common3
     9500000: //RootNode
-    10800000: Spot001
     13700000: 01_tex_phy
     13700002: 01_tex_phy 1
     13700004: 03_tex_phy
@@ -1113,10 +1108,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Waiting
+      name: Common3
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 100
+      lastFrame: 90
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
