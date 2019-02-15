@@ -2,17 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChatSceneController : MonoBehaviour
+public class ChatSceneController : MonoBehaviour, ISceneManager
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Initialize()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            TransScene();
+        }
+    }
+
+    public void TransScene()
+    {
+        Main main = Main.instance;
+        main.GoNext(SceneName.VideoScene);
     }
 }

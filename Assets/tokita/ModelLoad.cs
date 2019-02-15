@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class ModelLoad
 {
-    public void Load(InitModel _modelName)
+    public IEnumerator Load(InitModel _modelName)
     {
         GameObject model = GetModelData(_modelName);
-
+        yield return model;
         InstantiateModel(model);
     }
 
