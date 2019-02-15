@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46310eab1756103468f75226dca3ff51
+guid: c738bb932b1525e468774fb8c60aff6d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -444,9 +444,9 @@ ModelImporter:
     100876: Bone262
     100878: Bone263
     100880: Bone264
-    100882: //RootNode
-    100884: Spot001
-    100886: Spot001.Target
+    100882: Camera001
+    100884: Camera001.Target
+    100886: //RootNode
     100888: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
     100890: "\u30D1\u30F3\u30C0"
     100892: "\u30D1\u30F3\u30C002"
@@ -906,9 +906,9 @@ ModelImporter:
     400876: Bone262
     400878: Bone263
     400880: Bone264
-    400882: //RootNode
-    400884: Spot001
-    400886: Spot001.Target
+    400882: Camera001
+    400884: Camera001.Target
+    400886: //RootNode
     400888: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
     400890: "\u30D1\u30F3\u30C0"
     400892: "\u30D1\u30F3\u30C002"
@@ -927,6 +927,7 @@ ModelImporter:
     400918: "\u895F\u8DB3_tex"
     400920: "\u90E8\u5C4B\u7740_tex"
     400922: "\u982D_tex"
+    2000000: Camera001
     2100000: face
     2100002: rw
     2100004: 21 - Default
@@ -1026,9 +1027,8 @@ ModelImporter:
     4300128: 46_tex_phy
     4300130: "\u6905\u5B50\uFF3F\u5EA7"
     4300132: "\u6905\u5B50\uFF3F\u811A"
-    7400000: Waiting
+    7400000: ReplyA
     9500000: //RootNode
-    10800000: Spot001
     13700000: 01_tex_phy
     13700002: 01_tex_phy 1
     13700004: 03_tex_phy
@@ -1084,6 +1084,7 @@ ModelImporter:
     13700104: "\u6B6F\u3000\u4E0B_tex"
     13700106: "\u90E8\u5C4B\u7740_tex"
     13700108: "\u982D_tex"
+    6000828045688606266: Camera001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -1113,10 +1114,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Waiting
+      name: ReplyA
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 100
+      lastFrame: 650
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
