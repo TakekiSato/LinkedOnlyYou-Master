@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: ebea0031e3c96ec4ebc558742b8f2508
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ahoge1_1
+    100002: ahoge1_2
+    100004: ahoge1_3
+    100006: ahoge1_4
+    100008: ahoge1_phy
+    100010: ahoge2_1
+    100012: ahoge2_2
+    100014: ahoge2_3
+    100016: ahoge2_4
+    100018: ahoge2_phy
+    100020: ahoge4_1
+    100022: ahoge4_2
+    100024: ahoge4_3
+    100026: ahoge4_4
+    100028: ahoge4_5
+    100030: ahoge4_phy
+    100032: ahoge5_1
+    100034: ahoge5_2
+    100036: ahoge5_3
+    100038: ahoge5_4
+    100040: ahoge5_5
+    100042: ahoge5_phy
+    100044: Bip001
+    100046: Bip001 Footsteps
+    100048: Bip001 Head
+    100050: Bip001 HeadNub
+    100052: Bip001 L Calf
+    100054: Bip001 L Clavicle
+    100056: Bip001 L Finger0
+    100058: Bip001 L Finger01
+    100060: Bip001 L Finger02
+    100062: Bip001 L Finger03
+    100064: Bip001 L Finger0Nub
+    100066: Bip001 L Finger1
+    100068: Bip001 L Finger11
+    100070: Bip001 L Finger12
+    100072: Bip001 L Finger13
+    100074: Bip001 L Finger1Nub
+    100076: Bip001 L Finger2
+    100078: Bip001 L Finger21
+    100080: Bip001 L Finger22
+    100082: Bip001 L Finger23
+    100084: Bip001 L Finger2Nub
+    100086: Bip001 L Finger3
+    100088: Bip001 L Finger31
+    100090: Bip001 L Finger32
+    100092: Bip001 L Finger33
+    100094: Bip001 L Finger3Nub
+    100096: Bip001 L Finger4
+    100098: Bip001 L Finger41
+    100100: Bip001 L Finger42
+    100102: Bip001 L Finger43
+    100104: Bip001 L Finger4Nub
+    100106: Bip001 L Foot
+    100108: Bip001 L Forearm
+    100110: Bip001 L Hand
+    100112: Bip001 L Thigh
+    100114: Bip001 L Toe0
+    100116: Bip001 L Toe0Nub
+    100118: Bip001 L UpperArm
+    100120: Bip001 Neck
+    100122: Bip001 Neck1
+    100124: Bip001 Pelvis
+    100126: Bip001 R Calf
+    100128: Bip001 R Clavicle
+    100130: Bip001 R Finger0
+    100132: Bip001 R Finger01
+    100134: Bip001 R Finger02
+    100136: Bip001 R Finger03
+    100138: Bip001 R Finger0Nub
+    100140: Bip001 R Finger1
+    100142: Bip001 R Finger11
+    100144: Bip001 R Finger12
+    100146: Bip001 R Finger13
+    100148: Bip001 R Finger1Nub
+    100150: Bip001 R Finger2
+    100152: Bip001 R Finger21
+    100154: Bip001 R Finger22
+    100156: Bip001 R Finger23
+    100158: Bip001 R Finger2Nub
+    100160: Bip001 R Finger3
+    100162: Bip001 R Finger31
+    100164: Bip001 R Finger32
+    100166: Bip001 R Finger33
+    100168: Bip001 R Finger3Nub
+    100170: Bip001 R Finger4
+    100172: Bip001 R Finger41
+    100174: Bip001 R Finger42
+    100176: Bip001 R Finger43
+    100178: Bip001 R Finger4Nub
+    100180: Bip001 R Foot
+    100182: Bip001 R Forearm
+    100184: Bip001 R Hand
+    100186: Bip001 R Thigh
+    100188: Bip001 R Toe0
+    100190: Bip001 R Toe0Nub
+    100192: Bip001 R UpperArm
+    100194: Bip001 Spine
+    100196: Bip001 Spine1
+    100198: Bip001 Spine2
+    100200: Eye
+    100202: Eye001
+    100204: ha sita
+    100206: ha ue
+    100208: himo1_phy
+    100210: himo_bone1
+    100212: himo_bone10
+    100214: himo_bone2
+    100216: himo_bone3
+    100218: himo_bone4
+    100220: himo_bone5
+    100222: himo_bone6
+    100224: himo_bone7
+    100226: himo_bone8
+    100228: himo_bone9
+    100230: himo_phy
+    100232: //RootNode
+    100234: kamibase
+    100236: kao
+    100238: kotatu
+    100240: kussyonn
+    100242: maegami1_1
+    100244: maegami1_2
+    100246: maegami1_3
+    100248: maegami1_4
+    100250: maegami1_phy
+    100252: maegami2_1
+    100254: maegami2_2
+    100256: maegami2_3
+    100258: maegami2_4
+    100260: maegami2_phy
+    100262: maegami3_1
+    100264: maegami3_2
+    100266: maegami3_3
+    100268: maegami3_4
+    100270: maegami3_phy
+    100272: maegami4_1
+    100274: maegami4_2
+    100276: maegami4_3
+    100278: maegami4_4
+    100280: maegami4_phy
+    100282: megane
+    100284: pa-ka-zubon
+    100286: Pencil+ 4 Line Merge Helper001
+    100288: Point001
+    100290: Point002
+    100292: pyon1_1
+    100294: pyon1_2
+    100296: pyon1_3
+    100298: pyon1_4
+    100300: pyon1_phy
+    100302: pyon2_1
+    100304: pyon2_2
+    100306: pyon2_3
+    100308: pyon2_4
+    100310: pyon2_phy
+    100312: pyon3_1
+    100314: pyon3_2
+    100316: pyon3_3
+    100318: pyon3_4
+    100320: pyon3_phy
+    100322: Sphere193
+    100324: Sphere194
+    100326: Sphere195
+    400000: ahoge1_1
+    400002: ahoge1_2
+    400004: ahoge1_3
+    400006: ahoge1_4
+    400008: ahoge1_phy
+    400010: ahoge2_1
+    400012: ahoge2_2
+    400014: ahoge2_3
+    400016: ahoge2_4
+    400018: ahoge2_phy
+    400020: ahoge4_1
+    400022: ahoge4_2
+    400024: ahoge4_3
+    400026: ahoge4_4
+    400028: ahoge4_5
+    400030: ahoge4_phy
+    400032: ahoge5_1
+    400034: ahoge5_2
+    400036: ahoge5_3
+    400038: ahoge5_4
+    400040: ahoge5_5
+    400042: ahoge5_phy
+    400044: Bip001
+    400046: Bip001 Footsteps
+    400048: Bip001 Head
+    400050: Bip001 HeadNub
+    400052: Bip001 L Calf
+    400054: Bip001 L Clavicle
+    400056: Bip001 L Finger0
+    400058: Bip001 L Finger01
+    400060: Bip001 L Finger02
+    400062: Bip001 L Finger03
+    400064: Bip001 L Finger0Nub
+    400066: Bip001 L Finger1
+    400068: Bip001 L Finger11
+    400070: Bip001 L Finger12
+    400072: Bip001 L Finger13
+    400074: Bip001 L Finger1Nub
+    400076: Bip001 L Finger2
+    400078: Bip001 L Finger21
+    400080: Bip001 L Finger22
+    400082: Bip001 L Finger23
+    400084: Bip001 L Finger2Nub
+    400086: Bip001 L Finger3
+    400088: Bip001 L Finger31
+    400090: Bip001 L Finger32
+    400092: Bip001 L Finger33
+    400094: Bip001 L Finger3Nub
+    400096: Bip001 L Finger4
+    400098: Bip001 L Finger41
+    400100: Bip001 L Finger42
+    400102: Bip001 L Finger43
+    400104: Bip001 L Finger4Nub
+    400106: Bip001 L Foot
+    400108: Bip001 L Forearm
+    400110: Bip001 L Hand
+    400112: Bip001 L Thigh
+    400114: Bip001 L Toe0
+    400116: Bip001 L Toe0Nub
+    400118: Bip001 L UpperArm
+    400120: Bip001 Neck
+    400122: Bip001 Neck1
+    400124: Bip001 Pelvis
+    400126: Bip001 R Calf
+    400128: Bip001 R Clavicle
+    400130: Bip001 R Finger0
+    400132: Bip001 R Finger01
+    400134: Bip001 R Finger02
+    400136: Bip001 R Finger03
+    400138: Bip001 R Finger0Nub
+    400140: Bip001 R Finger1
+    400142: Bip001 R Finger11
+    400144: Bip001 R Finger12
+    400146: Bip001 R Finger13
+    400148: Bip001 R Finger1Nub
+    400150: Bip001 R Finger2
+    400152: Bip001 R Finger21
+    400154: Bip001 R Finger22
+    400156: Bip001 R Finger23
+    400158: Bip001 R Finger2Nub
+    400160: Bip001 R Finger3
+    400162: Bip001 R Finger31
+    400164: Bip001 R Finger32
+    400166: Bip001 R Finger33
+    400168: Bip001 R Finger3Nub
+    400170: Bip001 R Finger4
+    400172: Bip001 R Finger41
+    400174: Bip001 R Finger42
+    400176: Bip001 R Finger43
+    400178: Bip001 R Finger4Nub
+    400180: Bip001 R Foot
+    400182: Bip001 R Forearm
+    400184: Bip001 R Hand
+    400186: Bip001 R Thigh
+    400188: Bip001 R Toe0
+    400190: Bip001 R Toe0Nub
+    400192: Bip001 R UpperArm
+    400194: Bip001 Spine
+    400196: Bip001 Spine1
+    400198: Bip001 Spine2
+    400200: Eye
+    400202: Eye001
+    400204: ha sita
+    400206: ha ue
+    400208: himo1_phy
+    400210: himo_bone1
+    400212: himo_bone10
+    400214: himo_bone2
+    400216: himo_bone3
+    400218: himo_bone4
+    400220: himo_bone5
+    400222: himo_bone6
+    400224: himo_bone7
+    400226: himo_bone8
+    400228: himo_bone9
+    400230: himo_phy
+    400232: //RootNode
+    400234: kamibase
+    400236: kao
+    400238: kotatu
+    400240: kussyonn
+    400242: maegami1_1
+    400244: maegami1_2
+    400246: maegami1_3
+    400248: maegami1_4
+    400250: maegami1_phy
+    400252: maegami2_1
+    400254: maegami2_2
+    400256: maegami2_3
+    400258: maegami2_4
+    400260: maegami2_phy
+    400262: maegami3_1
+    400264: maegami3_2
+    400266: maegami3_3
+    400268: maegami3_4
+    400270: maegami3_phy
+    400272: maegami4_1
+    400274: maegami4_2
+    400276: maegami4_3
+    400278: maegami4_4
+    400280: maegami4_phy
+    400282: megane
+    400284: pa-ka-zubon
+    400286: Pencil+ 4 Line Merge Helper001
+    400288: Point001
+    400290: Point002
+    400292: pyon1_1
+    400294: pyon1_2
+    400296: pyon1_3
+    400298: pyon1_4
+    400300: pyon1_phy
+    400302: pyon2_1
+    400304: pyon2_2
+    400306: pyon2_3
+    400308: pyon2_4
+    400310: pyon2_phy
+    400312: pyon3_1
+    400314: pyon3_2
+    400316: pyon3_3
+    400318: pyon3_4
+    400320: pyon3_phy
+    400322: Sphere193
+    400324: Sphere194
+    400326: Sphere195
+    2100000: huku_tex
+    2100002: 'Material #1380'
+    2100004: hada_tex
+    2100006: eye_highlight_tex
+    2100008: kami_tex
+    2100010: megane_tex
+    2100012: piasu1_tex
+    2100014: piasu2_tex
+    2100016: ha_tex
+    2100018: eye_tex
+    2100020: No Name
+    2300000: Eye
+    2300002: Eye001
+    2300004: kamibase
+    2300006: kotatu
+    2300008: kussyonn
+    2300010: megane
+    2300012: Sphere193
+    2300014: Sphere194
+    2300016: Sphere195
+    3300000: Eye
+    3300002: Eye001
+    3300004: kamibase
+    3300006: kotatu
+    3300008: kussyonn
+    3300010: megane
+    3300012: Sphere193
+    3300014: Sphere194
+    3300016: Sphere195
+    4300000: pa-ka-zubon
+    4300002: himo1_phy
+    4300004: himo_phy
+    4300006: kao
+    4300008: kamibase
+    4300010: megane
+    4300012: Sphere193
+    4300014: Sphere194
+    4300016: Sphere195
+    4300018: ha ue
+    4300020: ha sita
+    4300022: Eye001
+    4300024: Eye
+    4300026: kotatu
+    4300028: kussyonn
+    4300030: ahoge2_phy
+    4300032: ahoge1_phy
+    4300034: ahoge4_phy
+    4300036: ahoge5_phy
+    4300038: maegami1_phy
+    4300040: maegami2_phy
+    4300042: maegami4_phy
+    4300044: maegami3_phy
+    4300046: pyon1_phy
+    4300048: pyon2_phy
+    4300050: pyon3_phy
+    7400000: motion11
+    9500000: //RootNode
+    13700000: ahoge1_phy
+    13700002: ahoge2_phy
+    13700004: ahoge4_phy
+    13700006: ahoge5_phy
+    13700008: ha sita
+    13700010: ha ue
+    13700012: himo1_phy
+    13700014: himo_phy
+    13700016: kao
+    13700018: maegami1_phy
+    13700020: maegami2_phy
+    13700022: maegami3_phy
+    13700024: maegami4_phy
+    13700026: pa-ka-zubon
+    13700028: pyon1_phy
+    13700030: pyon2_phy
+    13700032: pyon3_phy
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: motion11
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

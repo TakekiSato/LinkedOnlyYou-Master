@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: acc6c5eb3634fa345b7fe9f27da1cfe9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base Human
+    100002: Base HumanHead
+    100004: Base HumanLCalf
+    100006: Base HumanLCollarbone
+    100008: Base HumanLFoot
+    100010: Base HumanLForearm
+    100012: Base HumanLPalm
+    100014: Base HumanLThigh
+    100016: Base HumanLUpperarm
+    100018: "Base HumanL\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    100020: "Base HumanL\u630711"
+    100022: "Base HumanL\u630712"
+    100024: "Base HumanL\u630713"
+    100026: "Base HumanL\u630721"
+    100028: "Base HumanL\u630722"
+    100030: "Base HumanL\u630723"
+    100032: "Base HumanL\u630731"
+    100034: "Base HumanL\u630732"
+    100036: "Base HumanL\u630733"
+    100038: "Base HumanL\u630741"
+    100040: "Base HumanL\u630742"
+    100042: "Base HumanL\u630743"
+    100044: "Base HumanL\u630751"
+    100046: "Base HumanL\u630752"
+    100048: "Base HumanL\u630753"
+    100050: Base HumanNeck1
+    100052: Base HumanNeck2
+    100054: Base HumanPelvis
+    100056: Base HumanRCalf
+    100058: Base HumanRCollarbone
+    100060: Base HumanRFoot
+    100062: Base HumanRForearm
+    100064: Base HumanRibcage
+    100066: Base HumanRPalm
+    100068: Base HumanRThigh
+    100070: Base HumanRUpperarm
+    100072: "Base HumanR\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    100074: "Base HumanR\u630711"
+    100076: "Base HumanR\u630712"
+    100078: "Base HumanR\u630713"
+    100080: "Base HumanR\u630721"
+    100082: "Base HumanR\u630722"
+    100084: "Base HumanR\u630723"
+    100086: "Base HumanR\u630731"
+    100088: "Base HumanR\u630732"
+    100090: "Base HumanR\u630733"
+    100092: "Base HumanR\u630741"
+    100094: "Base HumanR\u630742"
+    100096: "Base HumanR\u630743"
+    100098: "Base HumanR\u630751"
+    100100: "Base HumanR\u630752"
+    100102: "Base HumanR\u630753"
+    100104: Base HumanSpine1
+    100106: Base HumanSpine2
+    100108: Base HumanSpine3
+    100110: Base HumanSpine4
+    100112: Bone005
+    100114: Bone006
+    100116: Bone009
+    100118: Bone010
+    100120: Bone011
+    100122: Bone012
+    100124: Bone013
+    100126: Bone014
+    100128: Bone015
+    100130: Bone016
+    100132: Bone017
+    100134: Bone018
+    100136: Bone019
+    100138: Bone020
+    100140: Bone021
+    100142: Bone022
+    100144: Bone023
+    100146: Bone033
+    100148: Bone034
+    100150: Bone035
+    100152: Bone036
+    100154: Bone037
+    100156: Bone038
+    100158: Bone039
+    100160: Bone040
+    100162: Bone041
+    100164: Bone042
+    100166: Bone043
+    100168: Bone044
+    100170: Bone045
+    100172: Bone046
+    100174: Bone047
+    100176: Bone048
+    100178: Bone049
+    100180: Bone050
+    100182: Bone051
+    100184: Bone052
+    100186: Bone053
+    100188: Bone054
+    100190: Bone055
+    100192: Bone056
+    100194: Bone057
+    100196: Bone058
+    100198: Bone059
+    100200: Bone060
+    100202: Bone061
+    100204: Bone062
+    100206: Bone063
+    100208: Bone064
+    100210: Bone065
+    100212: Bone066
+    100214: Bone067
+    100216: Bone068
+    100218: Bone069
+    100220: Bone070
+    100222: Bone071
+    100224: Bone072
+    100226: Bone073
+    100228: Bone074
+    100230: Bone075
+    100232: Bone076
+    100234: Bone077
+    100236: Bone078
+    100238: Bone079
+    100240: Bone080
+    100242: Bone081
+    100244: Camera001
+    100246: Camera001.Target
+    100248: IK Chain003
+    100250: IK Chain006
+    100252: IK Chain007
+    100254: IK Chain008
+    100256: megane
+    100258: Pencil+ 4 Line Merge Helper001
+    100260: piasu1
+    100262: piasu2
+    100264: Point003
+    100266: Point005
+    100268: Point006
+    100270: Point007
+    100272: Spot001
+    100274: Spot001.Target
+    100276: //RootNode
+    100278: "\u30BD\u30D5\u30A1"
+    100280: "\u6B6F"
+    100282: "\u751A\u5E73_tex"
+    100284: "\u76EE_tex1"
+    100286: "\u76EE_tex2"
+    100288: "\u7D30\u9AEA_tex_phy00"
+    100290: "\u7D30\u9AEA_tex_phy01"
+    100292: "\u7D30\u9AEA_tex_phy02"
+    100294: "\u7D30\u9AEA_tex_phy03"
+    100296: "\u8170\u30EA\u30DC\u30F3_tex"
+    100298: "\u9854_tex"
+    100300: "\u9AEA_tex"
+    100302: "\u9AEA\u4E0A_tex_phy01"
+    100304: "\u9AEA\u4E0A_tex_phy02"
+    100306: "\u9AEA\u4E0A_tex_phy03"
+    100308: "\u9AEA\u4E0A_tex_phy04"
+    400000: Base Human
+    400002: Base HumanHead
+    400004: Base HumanLCalf
+    400006: Base HumanLCollarbone
+    400008: Base HumanLFoot
+    400010: Base HumanLForearm
+    400012: Base HumanLPalm
+    400014: Base HumanLThigh
+    400016: Base HumanLUpperarm
+    400018: "Base HumanL\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    400020: "Base HumanL\u630711"
+    400022: "Base HumanL\u630712"
+    400024: "Base HumanL\u630713"
+    400026: "Base HumanL\u630721"
+    400028: "Base HumanL\u630722"
+    400030: "Base HumanL\u630723"
+    400032: "Base HumanL\u630731"
+    400034: "Base HumanL\u630732"
+    400036: "Base HumanL\u630733"
+    400038: "Base HumanL\u630741"
+    400040: "Base HumanL\u630742"
+    400042: "Base HumanL\u630743"
+    400044: "Base HumanL\u630751"
+    400046: "Base HumanL\u630752"
+    400048: "Base HumanL\u630753"
+    400050: Base HumanNeck1
+    400052: Base HumanNeck2
+    400054: Base HumanPelvis
+    400056: Base HumanRCalf
+    400058: Base HumanRCollarbone
+    400060: Base HumanRFoot
+    400062: Base HumanRForearm
+    400064: Base HumanRibcage
+    400066: Base HumanRPalm
+    400068: Base HumanRThigh
+    400070: Base HumanRUpperarm
+    400072: "Base HumanR\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    400074: "Base HumanR\u630711"
+    400076: "Base HumanR\u630712"
+    400078: "Base HumanR\u630713"
+    400080: "Base HumanR\u630721"
+    400082: "Base HumanR\u630722"
+    400084: "Base HumanR\u630723"
+    400086: "Base HumanR\u630731"
+    400088: "Base HumanR\u630732"
+    400090: "Base HumanR\u630733"
+    400092: "Base HumanR\u630741"
+    400094: "Base HumanR\u630742"
+    400096: "Base HumanR\u630743"
+    400098: "Base HumanR\u630751"
+    400100: "Base HumanR\u630752"
+    400102: "Base HumanR\u630753"
+    400104: Base HumanSpine1
+    400106: Base HumanSpine2
+    400108: Base HumanSpine3
+    400110: Base HumanSpine4
+    400112: Bone005
+    400114: Bone006
+    400116: Bone009
+    400118: Bone010
+    400120: Bone011
+    400122: Bone012
+    400124: Bone013
+    400126: Bone014
+    400128: Bone015
+    400130: Bone016
+    400132: Bone017
+    400134: Bone018
+    400136: Bone019
+    400138: Bone020
+    400140: Bone021
+    400142: Bone022
+    400144: Bone023
+    400146: Bone033
+    400148: Bone034
+    400150: Bone035
+    400152: Bone036
+    400154: Bone037
+    400156: Bone038
+    400158: Bone039
+    400160: Bone040
+    400162: Bone041
+    400164: Bone042
+    400166: Bone043
+    400168: Bone044
+    400170: Bone045
+    400172: Bone046
+    400174: Bone047
+    400176: Bone048
+    400178: Bone049
+    400180: Bone050
+    400182: Bone051
+    400184: Bone052
+    400186: Bone053
+    400188: Bone054
+    400190: Bone055
+    400192: Bone056
+    400194: Bone057
+    400196: Bone058
+    400198: Bone059
+    400200: Bone060
+    400202: Bone061
+    400204: Bone062
+    400206: Bone063
+    400208: Bone064
+    400210: Bone065
+    400212: Bone066
+    400214: Bone067
+    400216: Bone068
+    400218: Bone069
+    400220: Bone070
+    400222: Bone071
+    400224: Bone072
+    400226: Bone073
+    400228: Bone074
+    400230: Bone075
+    400232: Bone076
+    400234: Bone077
+    400236: Bone078
+    400238: Bone079
+    400240: Bone080
+    400242: Bone081
+    400244: Camera001
+    400246: Camera001.Target
+    400248: IK Chain003
+    400250: IK Chain006
+    400252: IK Chain007
+    400254: IK Chain008
+    400256: megane
+    400258: Pencil+ 4 Line Merge Helper001
+    400260: piasu1
+    400262: piasu2
+    400264: Point003
+    400266: Point005
+    400268: Point006
+    400270: Point007
+    400272: Spot001
+    400274: Spot001.Target
+    400276: //RootNode
+    400278: "\u30BD\u30D5\u30A1"
+    400280: "\u6B6F"
+    400282: "\u751A\u5E73_tex"
+    400284: "\u76EE_tex1"
+    400286: "\u76EE_tex2"
+    400288: "\u7D30\u9AEA_tex_phy00"
+    400290: "\u7D30\u9AEA_tex_phy01"
+    400292: "\u7D30\u9AEA_tex_phy02"
+    400294: "\u7D30\u9AEA_tex_phy03"
+    400296: "\u8170\u30EA\u30DC\u30F3_tex"
+    400298: "\u9854_tex"
+    400300: "\u9AEA_tex"
+    400302: "\u9AEA\u4E0A_tex_phy01"
+    400304: "\u9AEA\u4E0A_tex_phy02"
+    400306: "\u9AEA\u4E0A_tex_phy03"
+    400308: "\u9AEA\u4E0A_tex_phy04"
+    2100000: hair
+    2100002: 'Material #2860'
+    2100004: eye
+    2100006: 'Material #2859'
+    2100008: 'Material #2868'
+    2100010: face
+    2100012: zinbei
+    2100014: ude.asi
+    2100016: sofa
+    2300000: megane
+    2300002: piasu1
+    2300004: piasu2
+    2300006: "\u30BD\u30D5\u30A1"
+    2300008: "\u76EE_tex1"
+    2300010: "\u76EE_tex2"
+    2300012: "\u8170\u30EA\u30DC\u30F3_tex"
+    2300014: "\u9AEA_tex"
+    3300000: megane
+    3300002: piasu1
+    3300004: piasu2
+    3300006: "\u30BD\u30D5\u30A1"
+    3300008: "\u76EE_tex1"
+    3300010: "\u76EE_tex2"
+    3300012: "\u8170\u30EA\u30DC\u30F3_tex"
+    3300014: "\u9AEA_tex"
+    4300000: "\u9AEA_tex"
+    4300002: piasu1
+    4300004: "\u76EE_tex1"
+    4300006: "\u76EE_tex2"
+    4300008: megane
+    4300010: "\u6B6F"
+    4300012: "\u9AEA\u4E0A_tex_phy03"
+    4300014: "\u9AEA\u4E0A_tex_phy04"
+    4300016: "\u9AEA\u4E0A_tex_phy01"
+    4300018: "\u9AEA\u4E0A_tex_phy02"
+    4300020: "\u7D30\u9AEA_tex_phy02"
+    4300022: "\u7D30\u9AEA_tex_phy01"
+    4300024: "\u7D30\u9AEA_tex_phy00"
+    4300026: "\u7D30\u9AEA_tex_phy03"
+    4300028: "\u9854_tex"
+    4300030: piasu2
+    4300032: "\u8170\u30EA\u30DC\u30F3_tex"
+    4300034: "\u751A\u5E73_tex"
+    4300036: "\u30BD\u30D5\u30A1"
+    7400000: QuestionB
+    9500000: //RootNode
+    13700000: "\u6B6F"
+    13700002: "\u751A\u5E73_tex"
+    13700004: "\u7D30\u9AEA_tex_phy00"
+    13700006: "\u7D30\u9AEA_tex_phy01"
+    13700008: "\u7D30\u9AEA_tex_phy02"
+    13700010: "\u7D30\u9AEA_tex_phy03"
+    13700012: "\u9854_tex"
+    13700014: "\u9AEA\u4E0A_tex_phy01"
+    13700016: "\u9AEA\u4E0A_tex_phy02"
+    13700018: "\u9AEA\u4E0A_tex_phy03"
+    13700020: "\u9AEA\u4E0A_tex_phy04"
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: QuestionB
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 502
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
