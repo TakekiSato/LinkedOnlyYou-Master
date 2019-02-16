@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 4102747548850325104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 1}
   m_Children: []
   m_Father: {fileID: 4102747549388500004}
   m_RootOrder: 0
@@ -67,10 +67,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -118,7 +118,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4102747549388500006
 CanvasRenderer:
@@ -170,6 +170,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 4102747548850325106}
+  icon: {fileID: 4102747549388500005}
+  window: {fileID: 0}
+  lines: 0
 --- !u!114 &2098053880008191807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,8 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   choiseCircle: {fileID: 4102747550209109628}
-  pos: {x: 0, y: 0, z: 0}
-  mPos: {x: 0, y: 0, z: 0}
+  nowCountTime: 0
 --- !u!1 &4102747550209109506
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +222,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 200}
+  m_SizeDelta: {x: 6, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4102747550209109629
 CanvasRenderer:
