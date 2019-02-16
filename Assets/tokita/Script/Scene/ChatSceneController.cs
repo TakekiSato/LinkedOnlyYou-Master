@@ -4,9 +4,20 @@ using UnityEngine;
 
 public class ChatSceneController : MonoBehaviour, ISceneManager
 {
+
+    void Awake()
+    {
+        Debug.Log("Awake");
+    }
+
     public void Initialize()
     {
-        
+        Debug.Log("Initialize");
+    }
+
+    void Start()
+    {
+        Debug.Log("Start");
     }
 
     public void Update()
