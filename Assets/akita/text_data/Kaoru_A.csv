@@ -1,0 +1,4 @@
+icon/icon_kaoru.png,,,,,,
+ゲーム！,,,,,,
+あとはマンガ！,,,,,,
+あんたはゲームってやるの？,やるよ！,text_data/Kaoru_A_1.csv,choice/choice_maru.png,あんまりやらないかな……,text_data/Kaoru_A_2.csv,choice/choice_batsu.png

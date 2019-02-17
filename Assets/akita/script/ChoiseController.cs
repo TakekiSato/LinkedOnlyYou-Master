@@ -8,12 +8,13 @@ public class ChoiseController : MonoBehaviour
     [SerializeField]
     Image choiseCircle;
 
-    public Vector3 AAAA;
+    Camera camera;
+
     Vector3 pos;
     Vector3 mPosCorrection;
     const float choisedTime = 5.0f;
-    const float sensitivityRadius = 100.0f;
-    const float increaseRadius = 75.0f;
+    const float sensitivityRadius = 3.0f;
+    const float increaseRadius = 2.0f;
 
     int num;
     TextEvent manager;
@@ -31,13 +32,18 @@ public class ChoiseController : MonoBehaviour
         pos = transform.localPosition;
         mPosCorrection = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0);
         outOfCircle = true;
+        var parentobj = GameObject.Find("ParentObject");
+        //大神:シーンの親を作ったのでここにパブリックでシリアライズしたりすれば何でも取れる
+        var parent = parentobj.GetComponent<ParentObject>();
+        camera = parent.mainCamera;
     }
 
     void Update()
     {
-        Vector3 d = pos - (Input.mousePosition - mPosCorrection);
-        AAAA = d;
-        if (d.x * d.x + d.y * d.y <= sensitivityRadius * sensitivityRadius)
+        Vector3 look = camera.transform.rotation * Vector3.forward;
+        Vector3 d = transform.position - Camera.main.transform.position;
+        d = look - d.normalized;
+        if (d.x * d.x + d.y * d.y + d.z * d.z <= 0.03f/*適当*/)
         {
             if (outOfCircle)
             {

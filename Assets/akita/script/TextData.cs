@@ -1,54 +1,56 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
-struct CharaPoint
+class TextDataSet
 {
-    public int A;
-    public int B;
-    public int C;
+    public string question;
+    public int replyCount;
+    public bool isJump;
+    public string[] reply;
+    public Sprite[] sprite;
+    public string[] jump;
 
-    public void Init()
+    public TextDataSet(string _question)
     {
-        A = 0; B = 0; C = 0;
+        question = _question;
+        replyCount = 0;
+        isJump = false;
     }
 
-    static public CharaPoint Zero()
+    public void SetReplyCount(int _count)
     {
-        CharaPoint ans;
-        ans.A = 0; ans.B = 0; ans.C = 0;
-        return ans;
+        if (_count < 1) return;
+        replyCount = _count;
+        reply = new string[replyCount];
+        sprite = new Sprite[replyCount];
     }
 
-    static public CharaPoint operator+ (CharaPoint obj1, CharaPoint obj2)
+    public void SetReply(int _num, string _reply, string _spritePath)
     {
-        CharaPoint ans;
-        ans.A = obj1.A + obj2.A;
-        ans.B = obj1.B + obj2.B;
-        ans.C = obj1.C + obj2.C;
-        return ans;
+        if (_num < 0) return;
+        if (_num >= replyCount) return;
+        reply[_num] = _reply;
+        sprite[_num] = MyFunctions.CreateSprite(_spritePath);
+
     }
-}
 
-class ChoiceCharaPointSet
-{
-    public CharaPoint cp;
-    public string text;
-
-    public ChoiceCharaPointSet(string _text, int _pA, int _pB, int _pC)
+    public void SetJump(int _num, string _filePath)
     {
-        text = _text;
-        cp.A = _pA;
-        cp.B = _pB;
-        cp.C = _pC;
+        if (!isJump)
+        {
+            isJump = true;
+            jump = new string[replyCount];
+        }
+
+        jump[_num] = _filePath;
     }
 }
 
 class CharaTextData
 {
-    List<string> question;
-    List<ChoiceCharaPointSet> ccpList1;
-    List<ChoiceCharaPointSet> ccpList2;
-    List<ChoiceCharaPointSet> ccpList3;
+    Sprite icon;
+    List<TextDataSet> dataList;
     int nowCount;
     int maxCount;
     bool isInvalid;
@@ -66,29 +68,42 @@ class CharaTextData
             return;
         }
         nowCount = 0;
-        maxCount = _ed.GetColumnCount();
+        maxCount = _ed.GetColumnCount() - 1;
         if (0 == maxCount)
         {
             isInvalid = true;
             return;
         }
-
-        ccpList1 = new List<ChoiceCharaPointSet>();
-        ccpList2 = new List<ChoiceCharaPointSet>();
-        ccpList3 = new List<ChoiceCharaPointSet>();
-        question = new List<string>();
-
-        for (int i = 0; i < maxCount; ++i)
-        {
-            question.Add(_ed.GetCell(0, i));
-            ccpList1.Add(new ChoiceCharaPointSet(
-                _ed.GetCell(1, i), int.Parse(_ed.GetCell(2, i)), int.Parse(_ed.GetCell(3, i)), int.Parse(_ed.GetCell(4, i))));
-            ccpList2.Add(new ChoiceCharaPointSet(
-                _ed.GetCell(5, i), int.Parse(_ed.GetCell(6, i)), int.Parse(_ed.GetCell(7, i)), int.Parse(_ed.GetCell(8, i))));
-            ccpList3.Add(new ChoiceCharaPointSet(
-                _ed.GetCell(9, i), int.Parse(_ed.GetCell(10, i)), int.Parse(_ed.GetCell(11, i)), int.Parse(_ed.GetCell(12, i))));
-        }
+        dataList = new List<TextDataSet>();
         
+        icon = MyFunctions.CreateSprite(_ed.GetCell(0, 0));
+        for (int col = 1; col < _ed.GetColumnCount(); ++col)
+        {
+            TextDataSet tds = new TextDataSet(_ed.GetCell(0, col));
+            int count = (_ed.GetRowCount(col) - 1) / 3;
+            for (int row = 1; row < _ed.GetRowCount(col); row += 3)
+            {
+                if (_ed.GetCell(row, col) != "") continue;
+                count = (row - 1) / 3;
+                break;
+            }
+            tds.SetReplyCount(count);
+            for (int i = 0; i < count; ++i)
+            {
+                tds.SetReply(i, _ed.GetCell(i * 3 + 1, col), _ed.GetCell(i * 3 + 3, col));
+                if (_ed.GetCell(i * 3 + 2, col) != "")
+                    tds.SetJump(i, _ed.GetCell(i * 3 + 2, col));
+            }
+            dataList.Add(tds);
+        }
+
+        for (int i = 0; i < dataList.Count; ++i)
+        {
+            MyFunctions.LineFeed(ref dataList[i].question);
+            for (int j = 0; j < dataList[i].replyCount; ++j)
+                MyFunctions.LineFeed(ref dataList[i].reply[j]);
+        }
+
         isInvalid = false;
     }
 
@@ -102,30 +117,70 @@ class CharaTextData
     public string GetQuestion()
     {
         if (isInvalid) return "";
-        return question[nowCount];
+        return dataList[nowCount].question;
+    }
+
+    public int GetChoiceCount()
+    {
+        if (isInvalid) return 0;
+        return dataList[nowCount].replyCount;
     }
 
     public string GetChoice(int _num)
     {
         if (isInvalid) return "";
-        switch (_num)
-        {
-            case 1: return ccpList1[nowCount].text;
-            case 2: return ccpList2[nowCount].text;
-            case 3: return ccpList3[nowCount].text;
-        }
-        return "";
+        if (_num < dataList[nowCount].replyCount) return dataList[nowCount].reply[_num];
+        else return "";
     }
 
-    public CharaPoint GetCharaPoint(int _num)
+    public bool GetIsJump()
     {
-        if (isInvalid) return CharaPoint.Zero();
-        switch (_num)
+        return dataList[nowCount].isJump;
+    }
+
+    public string GetJump(int _num)
+    {
+        if (isInvalid) return "";
+        if (dataList[nowCount].isJump && _num < dataList[nowCount].replyCount) return dataList[nowCount].jump[_num];
+        else return "";
+    }
+
+    public Sprite GetSprite(int _num)
+    {
+        if (isInvalid) return null;
+        if (_num < dataList[nowCount].replyCount) return dataList[nowCount].sprite[_num];
+        else return null;
+    }
+
+    public Sprite GetIcon()
+    {
+        return icon;
+    }
+}
+
+class MyFunctions
+{
+    public static Sprite CreateSprite(string _path)
+    {
+        int dot = _path.LastIndexOf('.');
+        return Resources.Load<Sprite>(_path.Substring(0, dot));
+    }
+
+    public static void LineFeed(ref string _str)
+    {
+        int count = _str.Length;
+        for (int i = 0; i < count; ++i)
         {
-            case 1: return ccpList1[nowCount].cp;
-            case 2: return ccpList2[nowCount].cp;
-            case 3: return ccpList3[nowCount].cp;
+            int pos = _str.IndexOf("\\n");
+            if (pos == -1) break;
+            _str = _str.Substring(0, pos) + '\n' + _str.Substring(pos + 2);
         }
-        return CharaPoint.Zero();
+    }
+
+    public static string GetExtension(string _str)
+    {
+        int dot = _str.LastIndexOf('.');
+        if (dot < 0) return "";
+        return _str.Substring(dot + 1);
     }
 }
