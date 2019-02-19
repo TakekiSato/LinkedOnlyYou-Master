@@ -1,0 +1,1278 @@
+fileFormatVersion: 2
+guid: 8ab2f3949dc38244bb7b0592a4dfc24a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: aircon
+    100002: Baseboards
+    100004: bed
+    100006: Box006
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: Box010
+    100016: Box011
+    100018: Box014
+    100020: Box015
+    100022: Box016
+    100024: Box017
+    100026: Box018
+    100028: Box019
+    100030: Box020
+    100032: ceiling
+    100034: ceiling_light
+    100036: closet
+    100038: closet_door
+    100040: closet_frame
+    100042: Curtain
+    100044: Curtain_rail
+    100046: door
+    100048: floor
+    100050: hook
+    100052: iphone
+    100054: mat
+    100056: panda_doll
+    100058: pillow
+    100060: //RootNode
+    100062: rose
+    100064: rose002
+    100066: sheet
+    100068: stem
+    100070: stem001
+    100072: window
+    100074: Window_frame
+    100076: "\u305B\u3093\u3079\u3044"
+    100078: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8"
+    100080: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8 1"
+    100082: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8001"
+    100084: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8002"
+    100086: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8003"
+    100088: "\u30BD\u30D5\u30A1"
+    100090: "\u30C0\u30F3\u30D9\u30EB"
+    100092: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    100094: "\u30E9\u30B0"
+    100096: "\u58C1\u5199\u771F\uFF11"
+    100098: "\u58C1\u5199\u771F\uFF12"
+    100100: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    100102: "\u58C1\uFF3F\u60A0"
+    100104: "\u6728"
+    100106: "\u672C\uFF11"
+    100108: "\u672C\uFF12"
+    100110: "\u672C\uFF13"
+    100112: "\u672C\uFF13 1"
+    100114: "\u672C\uFF14"
+    100116: "\u672C\uFF14 1"
+    100118: "\u672C\uFF15"
+    100120: "\u672C\uFF16"
+    100122: "\u672C\uFF17"
+    100124: "\u672C\uFF17 1"
+    100126: "\u673A"
+    100128: "\u68DA"
+    100130: "\u68DA\u307E\u3068\u3081"
+    100132: "\u74F6"
+    100134: "\u74F6\uFF12"
+    100136: "\u76C6\u683D"
+    100138: "\u82B1\u74F6"
+    100140: "\u8449"
+    100142: "\u8449 1"
+    100144: "\u8449003"
+    100146: "\u8449004"
+    100148: "\u8449005"
+    100150: "\u8449006"
+    100152: "\u8449007"
+    100154: "\u8449008"
+    100156: "\u8449009"
+    100158: "\u8449010"
+    100160: "\u8449011"
+    100162: "\u8449013"
+    100164: "\u8449014"
+    100166: "\u8449015"
+    100168: "\u8449016"
+    100170: "\u8449017"
+    100172: "\u8449018"
+    100174: "\u8449019"
+    100176: "\u8449020"
+    100178: "\u8449021"
+    100180: "\u8449022"
+    100182: "\u8449023"
+    100184: "\u8449024"
+    100186: "\u8449025"
+    100188: "\u8449026"
+    100190: "\u8449\uFF12"
+    100192: "\u8449\uFF12 1"
+    100194: "\u8449\uFF3F\uFF12"
+    100196: "\u8594\u8587"
+    100198: "\u8594\u8587\uFF12"
+    100200: "\u9262"
+    100202: "\u9262\u690D\u3048"
+    100204: "\u9262\uFF12"
+    100206: "\u9262\uFF3F\uFF12"
+    100208: "\u93E1"
+    400000: aircon
+    400002: Baseboards
+    400004: bed
+    400006: Box006
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: Box010
+    400016: Box011
+    400018: Box014
+    400020: Box015
+    400022: Box016
+    400024: Box017
+    400026: Box018
+    400028: Box019
+    400030: Box020
+    400032: ceiling
+    400034: ceiling_light
+    400036: closet
+    400038: closet_door
+    400040: closet_frame
+    400042: Curtain
+    400044: Curtain_rail
+    400046: door
+    400048: floor
+    400050: hook
+    400052: iphone
+    400054: mat
+    400056: panda_doll
+    400058: pillow
+    400060: //RootNode
+    400062: rose
+    400064: rose002
+    400066: sheet
+    400068: stem
+    400070: stem001
+    400072: window
+    400074: Window_frame
+    400076: "\u305B\u3093\u3079\u3044"
+    400078: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8"
+    400080: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8 1"
+    400082: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8001"
+    400084: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8002"
+    400086: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8003"
+    400088: "\u30BD\u30D5\u30A1"
+    400090: "\u30C0\u30F3\u30D9\u30EB"
+    400092: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    400094: "\u30E9\u30B0"
+    400096: "\u58C1\u5199\u771F\uFF11"
+    400098: "\u58C1\u5199\u771F\uFF12"
+    400100: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    400102: "\u58C1\uFF3F\u60A0"
+    400104: "\u6728"
+    400106: "\u672C\uFF11"
+    400108: "\u672C\uFF12"
+    400110: "\u672C\uFF13"
+    400112: "\u672C\uFF13 1"
+    400114: "\u672C\uFF14"
+    400116: "\u672C\uFF14 1"
+    400118: "\u672C\uFF15"
+    400120: "\u672C\uFF16"
+    400122: "\u672C\uFF17"
+    400124: "\u672C\uFF17 1"
+    400126: "\u673A"
+    400128: "\u68DA"
+    400130: "\u68DA\u307E\u3068\u3081"
+    400132: "\u74F6"
+    400134: "\u74F6\uFF12"
+    400136: "\u76C6\u683D"
+    400138: "\u82B1\u74F6"
+    400140: "\u8449"
+    400142: "\u8449 1"
+    400144: "\u8449003"
+    400146: "\u8449004"
+    400148: "\u8449005"
+    400150: "\u8449006"
+    400152: "\u8449007"
+    400154: "\u8449008"
+    400156: "\u8449009"
+    400158: "\u8449010"
+    400160: "\u8449011"
+    400162: "\u8449013"
+    400164: "\u8449014"
+    400166: "\u8449015"
+    400168: "\u8449016"
+    400170: "\u8449017"
+    400172: "\u8449018"
+    400174: "\u8449019"
+    400176: "\u8449020"
+    400178: "\u8449021"
+    400180: "\u8449022"
+    400182: "\u8449023"
+    400184: "\u8449024"
+    400186: "\u8449025"
+    400188: "\u8449026"
+    400190: "\u8449\uFF12"
+    400192: "\u8449\uFF12 1"
+    400194: "\u8449\uFF3F\uFF12"
+    400196: "\u8594\u8587"
+    400198: "\u8594\u8587\uFF12"
+    400200: "\u9262"
+    400202: "\u9262\u690D\u3048"
+    400204: "\u9262\uFF12"
+    400206: "\u9262\uFF3F\uFF12"
+    400208: "\u93E1"
+    2100000: aircon
+    2100002: door
+    2100004: bed
+    2100006: mat
+    2100008: pillow
+    2100010: sheet
+    2100012: Curtain rail
+    2100014: Window frame
+    2100016: window
+    2100018: Curtain
+    2100020: hook
+    2100022: iphone
+    2100024: floor
+    2100026: Baseboards
+    2100028: ceiling
+    2100030: closet_frame
+    2100032: closet
+    2100034: closet_door
+    2100036: panda_doll
+    2100038: ceiling_light
+    2100040: "\u30BD\u30D5\u30A1"
+    2100042: "\u30E9\u30B0"
+    2100044: "\u673A"
+    2100046: "\u68DA"
+    2100048: "\u672C\uFF16"
+    2100050: "\u93E1"
+    2100052: "\u9262"
+    2100054: "\u9262\uFF12"
+    2100056: "\u6728"
+    2100058: "\u82B1\u74F6"
+    2100060: "\u8594\u8587"
+    2100062: "\u830E"
+    2100064: "\u672C\uFF17"
+    2100066: "\u74F6"
+    2100068: "\u672C\uFF13"
+    2100070: "\u672C\uFF14"
+    2100072: "\u672C\uFF12"
+    2100074: "\u672C\uFF15"
+    2100076: "\u672C\uFF11"
+    2100078: "\u8449"
+    2100080: "\u8449\uFF12"
+    2100082: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    2100084: "\u9262\u690D\u3048"
+    2100086: "\u76C6\u683D"
+    2100088: "\u305B\u3093\u3079\u3044"
+    2100090: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    2100092: "\u30C0\u30F3\u30D9\u30EB"
+    2100094: "\u58C1\u5199\u771F\uFF11"
+    2100096: "\u58C1\u5199\u771F\uFF12"
+    2100098: "\u58C1\uFF3F\u60A0"
+    2100100: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8"
+    2300000: aircon
+    2300002: Baseboards
+    2300004: bed
+    2300006: Box006
+    2300008: Box007
+    2300010: Box008
+    2300012: Box009
+    2300014: Box010
+    2300016: Box011
+    2300018: Box014
+    2300020: Box015
+    2300022: Box016
+    2300024: Box017
+    2300026: Box018
+    2300028: Box019
+    2300030: Box020
+    2300032: ceiling
+    2300034: ceiling_light
+    2300036: closet
+    2300038: closet_door
+    2300040: closet_frame
+    2300042: Curtain
+    2300044: Curtain_rail
+    2300046: door
+    2300048: floor
+    2300050: hook
+    2300052: iphone
+    2300054: mat
+    2300056: panda_doll
+    2300058: pillow
+    2300060: rose
+    2300062: rose002
+    2300064: sheet
+    2300066: stem
+    2300068: stem001
+    2300070: window
+    2300072: Window_frame
+    2300074: "\u305B\u3093\u3079\u3044"
+    2300076: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8 1"
+    2300078: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8001"
+    2300080: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8002"
+    2300082: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8003"
+    2300084: "\u30BD\u30D5\u30A1"
+    2300086: "\u30C0\u30F3\u30D9\u30EB"
+    2300088: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    2300090: "\u30E9\u30B0"
+    2300092: "\u58C1\u5199\u771F\uFF11"
+    2300094: "\u58C1\u5199\u771F\uFF12"
+    2300096: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    2300098: "\u58C1\uFF3F\u60A0"
+    2300100: "\u6728"
+    2300102: "\u672C\uFF13 1"
+    2300104: "\u672C\uFF14 1"
+    2300106: "\u672C\uFF16"
+    2300108: "\u672C\uFF17"
+    2300110: "\u672C\uFF17 1"
+    2300112: "\u673A"
+    2300114: "\u68DA"
+    2300116: "\u74F6"
+    2300118: "\u74F6\uFF12"
+    2300120: "\u76C6\u683D"
+    2300122: "\u82B1\u74F6"
+    2300124: "\u8449 1"
+    2300126: "\u8449003"
+    2300128: "\u8449004"
+    2300130: "\u8449005"
+    2300132: "\u8449006"
+    2300134: "\u8449007"
+    2300136: "\u8449008"
+    2300138: "\u8449009"
+    2300140: "\u8449010"
+    2300142: "\u8449011"
+    2300144: "\u8449013"
+    2300146: "\u8449014"
+    2300148: "\u8449015"
+    2300150: "\u8449016"
+    2300152: "\u8449017"
+    2300154: "\u8449018"
+    2300156: "\u8449019"
+    2300158: "\u8449020"
+    2300160: "\u8449021"
+    2300162: "\u8449022"
+    2300164: "\u8449023"
+    2300166: "\u8449024"
+    2300168: "\u8449025"
+    2300170: "\u8449026"
+    2300172: "\u8449\uFF12 1"
+    2300174: "\u9262"
+    2300176: "\u9262\u690D\u3048"
+    2300178: "\u9262\uFF12"
+    2300180: "\u9262\uFF3F\uFF12"
+    2300182: "\u93E1"
+    3300000: aircon
+    3300002: Baseboards
+    3300004: bed
+    3300006: Box006
+    3300008: Box007
+    3300010: Box008
+    3300012: Box009
+    3300014: Box010
+    3300016: Box011
+    3300018: Box014
+    3300020: Box015
+    3300022: Box016
+    3300024: Box017
+    3300026: Box018
+    3300028: Box019
+    3300030: Box020
+    3300032: ceiling
+    3300034: ceiling_light
+    3300036: closet
+    3300038: closet_door
+    3300040: closet_frame
+    3300042: Curtain
+    3300044: Curtain_rail
+    3300046: door
+    3300048: floor
+    3300050: hook
+    3300052: iphone
+    3300054: mat
+    3300056: panda_doll
+    3300058: pillow
+    3300060: rose
+    3300062: rose002
+    3300064: sheet
+    3300066: stem
+    3300068: stem001
+    3300070: window
+    3300072: Window_frame
+    3300074: "\u305B\u3093\u3079\u3044"
+    3300076: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8 1"
+    3300078: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8001"
+    3300080: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8002"
+    3300082: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8003"
+    3300084: "\u30BD\u30D5\u30A1"
+    3300086: "\u30C0\u30F3\u30D9\u30EB"
+    3300088: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    3300090: "\u30E9\u30B0"
+    3300092: "\u58C1\u5199\u771F\uFF11"
+    3300094: "\u58C1\u5199\u771F\uFF12"
+    3300096: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    3300098: "\u58C1\uFF3F\u60A0"
+    3300100: "\u6728"
+    3300102: "\u672C\uFF13 1"
+    3300104: "\u672C\uFF14 1"
+    3300106: "\u672C\uFF16"
+    3300108: "\u672C\uFF17"
+    3300110: "\u672C\uFF17 1"
+    3300112: "\u673A"
+    3300114: "\u68DA"
+    3300116: "\u74F6"
+    3300118: "\u74F6\uFF12"
+    3300120: "\u76C6\u683D"
+    3300122: "\u82B1\u74F6"
+    3300124: "\u8449 1"
+    3300126: "\u8449003"
+    3300128: "\u8449004"
+    3300130: "\u8449005"
+    3300132: "\u8449006"
+    3300134: "\u8449007"
+    3300136: "\u8449008"
+    3300138: "\u8449009"
+    3300140: "\u8449010"
+    3300142: "\u8449011"
+    3300144: "\u8449013"
+    3300146: "\u8449014"
+    3300148: "\u8449015"
+    3300150: "\u8449016"
+    3300152: "\u8449017"
+    3300154: "\u8449018"
+    3300156: "\u8449019"
+    3300158: "\u8449020"
+    3300160: "\u8449021"
+    3300162: "\u8449022"
+    3300164: "\u8449023"
+    3300166: "\u8449024"
+    3300168: "\u8449025"
+    3300170: "\u8449026"
+    3300172: "\u8449\uFF12 1"
+    3300174: "\u9262"
+    3300176: "\u9262\u690D\u3048"
+    3300178: "\u9262\uFF12"
+    3300180: "\u9262\uFF3F\uFF12"
+    3300182: "\u93E1"
+    4300000: aircon
+    4300002: door
+    4300004: bed
+    4300006: mat
+    4300008: pillow
+    4300010: sheet
+    4300012: Curtain_rail
+    4300014: Window_frame
+    4300016: window
+    4300018: Curtain
+    4300020: hook
+    4300022: iphone
+    4300024: floor
+    4300026: Baseboards
+    4300028: ceiling
+    4300030: closet_frame
+    4300032: closet
+    4300034: closet_door
+    4300036: panda_doll
+    4300038: ceiling_light
+    4300040: "\u30BD\u30D5\u30A1"
+    4300042: "\u30E9\u30B0"
+    4300044: "\u673A"
+    4300046: "\u68DA"
+    4300048: "\u672C\uFF16"
+    4300050: "\u93E1"
+    4300052: "\u9262"
+    4300054: "\u9262\uFF12"
+    4300056: "\u6728"
+    4300058: "\u82B1\u74F6"
+    4300060: rose
+    4300062: stem
+    4300064: rose002
+    4300066: stem001
+    4300068: "\u672C\uFF17"
+    4300070: "\u74F6"
+    4300072: "\u74F6\uFF12"
+    4300074: Box017
+    4300076: "\u672C\uFF13"
+    4300078: Box018
+    4300080: "\u672C\uFF14"
+    4300082: Box006
+    4300084: Box009
+    4300086: Box019
+    4300088: Box007
+    4300090: Box011
+    4300092: Box015
+    4300094: "\u672C\uFF17"
+    4300096: Box010
+    4300098: Box020
+    4300100: Box014
+    4300102: Box016
+    4300104: Box008
+    4300106: "\u8449"
+    4300108: "\u8449003"
+    4300110: "\u8449004"
+    4300112: "\u8449005"
+    4300114: "\u8449006"
+    4300116: "\u8449007"
+    4300118: "\u8449008"
+    4300120: "\u8449009"
+    4300122: "\u8449010"
+    4300124: "\u8449011"
+    4300126: "\u8449013"
+    4300128: "\u8449014"
+    4300130: "\u8449015"
+    4300132: "\u8449016"
+    4300134: "\u8449017"
+    4300136: "\u8449018"
+    4300138: "\u8449019"
+    4300140: "\u8449020"
+    4300142: "\u8449021"
+    4300144: "\u8449022"
+    4300146: "\u9262\uFF3F\uFF12"
+    4300148: "\u8449023"
+    4300150: "\u8449024"
+    4300152: "\u8449025"
+    4300154: "\u8449026"
+    4300156: "\u8449\uFF12"
+    4300158: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    4300160: "\u9262\u690D\u3048"
+    4300162: "\u76C6\u683D"
+    4300164: "\u305B\u3093\u3079\u3044"
+    4300166: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    4300168: "\u30C0\u30F3\u30D9\u30EB"
+    4300170: "\u58C1\u5199\u771F\uFF11"
+    4300172: "\u58C1\u5199\u771F\uFF12"
+    4300174: "\u58C1\uFF3F\u60A0"
+    4300176: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8"
+    4300178: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8001"
+    4300180: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8002"
+    4300182: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8003"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Baseboards
+    second: {fileID: 2100000, guid: 41e64ec1494d6994f95daac8dbdaa56c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curtain
+    second: {fileID: 2100000, guid: 0facab102e2d053499c0d92fc495dfbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curtain rail
+    second: {fileID: 2100000, guid: 0769b2e21accfc84b9e91cb49d3101a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window frame
+    second: {fileID: 2100000, guid: 813e7d673460fe34badf9a9f47c79708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aircon
+    second: {fileID: 2100000, guid: 3a5705bef24461744af31b8de137051b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed
+    second: {fileID: 2100000, guid: 8ed8cf9083ed9554b8f36212f7664f9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling
+    second: {fileID: 2100000, guid: 1011bb7ca343e5144b2c44bed2123333, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceiling_light
+    second: {fileID: 2100000, guid: c0c3c92cd011f8c45995675ed6294ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: closet
+    second: {fileID: 2100000, guid: 7ae87eecb9aed7744b113bb42377b56e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: closet_door
+    second: {fileID: 2100000, guid: 75b04a3d9261a1942981481521e69e40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: closet_frame
+    second: {fileID: 2100000, guid: a490a93af56b18a47bdebb370e0c6392, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: 28cf807456d361940a25196a718057eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: floor
+    second: {fileID: 2100000, guid: e575aea8c3b69c44faca871efb62a6a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hook
+    second: {fileID: 2100000, guid: eab8bbf446dd15043be1c48e62ee5afa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: iphone
+    second: {fileID: 2100000, guid: 228d34fa00e909f4f87ea34a6b92ddc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat
+    second: {fileID: 2100000, guid: 96aaa3387960ce0418f0bf8b4bc761af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: panda_doll
+    second: {fileID: 2100000, guid: b4083064fe740294398a2e7785c7714c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillow
+    second: {fileID: 2100000, guid: cb62c10b72789624f8724d53f8f2ed38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sheet
+    second: {fileID: 2100000, guid: 762a021ab0307f9448df834a17938c2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window
+    second: {fileID: 2100000, guid: 12ec373d15092674e8b4cd6f60ee978e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u305B\u3093\u3079\u3044"
+    second: {fileID: 2100000, guid: 10152fb597e8e3b488a9fe2ff1994f8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8"
+    second: {fileID: 2100000, guid: 38f065ef064aa6b48a470b22d5a7b12c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30BD\u30D5\u30A1"
+    second: {fileID: 2100000, guid: 3870d9ddb09217d4e8be54283196fb0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30C0\u30F3\u30D9\u30EB"
+    second: {fileID: 2100000, guid: 619ad71e9bdd10e45917c6291e4c80ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3"
+    second: {fileID: 2100000, guid: e05f8ca4bd02d6f49a7835f542a46368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u30E9\u30B0"
+    second: {fileID: 2100000, guid: f22d1a8fc512317418d9e52bbcb48794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u58C1\u5199\u771F\uFF11"
+    second: {fileID: 2100000, guid: 0d496b620e26462419da5e549dbd818e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u58C1\u5199\u771F\uFF12"
+    second: {fileID: 2100000, guid: 02b04c0aca57f7f479f8c0a2cca95270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u58C1\u639B\u3051\u30C6\u30EC\u30D3"
+    second: {fileID: 2100000, guid: f5193a4838b204e4da510a9c6e656361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u58C1\uFF3F\u60A0"
+    second: {fileID: 2100000, guid: f6e4553081a776f458df3133362d8f60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6728"
+    second: {fileID: 2100000, guid: 9324ae50c3e613046b2b01d620b4fa59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF11"
+    second: {fileID: 2100000, guid: 550977a3112f9184bb3b0932ac7f76e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF12"
+    second: {fileID: 2100000, guid: c50078b7f06cd8e478dc11e71ac8c07f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF13"
+    second: {fileID: 2100000, guid: 48f92fff9534a22448d784569af4433e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF14"
+    second: {fileID: 2100000, guid: 781acd69d7ccaab46aabe050d5a00185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF15"
+    second: {fileID: 2100000, guid: 8a20bd863a5eac740a6dd11ca67fc4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF16"
+    second: {fileID: 2100000, guid: 357fd5e8c65156e4b9560f1ca77581de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u672C\uFF17"
+    second: {fileID: 2100000, guid: 268b28825e3378a48b38324f37a9ff94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u673A"
+    second: {fileID: 2100000, guid: 2d91a2a7991590f41b45862a9285091d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u68DA"
+    second: {fileID: 2100000, guid: d3e630a05c62d91429d20c0e5c20d348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u74F6"
+    second: {fileID: 2100000, guid: f954d68d529c8a7489689837038f92bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u76C6\u683D"
+    second: {fileID: 2100000, guid: afe993df4dfb5834d868c42e47f4af23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u82B1\u74F6"
+    second: {fileID: 2100000, guid: 1bb8b8266cdcf4142a26fa6c7ac986a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u830E"
+    second: {fileID: 2100000, guid: 3091acc05dc8840449f6829317de9bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u8449"
+    second: {fileID: 2100000, guid: 81b94e203ce1d064881eb4d4670e6476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u8449\uFF12"
+    second: {fileID: 2100000, guid: 529bc1898b169774fac36eab9b7b4697, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u8594\u8587"
+    second: {fileID: 2100000, guid: 9ca0d5d3411e1d74eb916efec3d4b480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9262"
+    second: {fileID: 2100000, guid: 3955ee4bb44b8e04989c31b7b064e097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9262\u690D\u3048"
+    second: {fileID: 2100000, guid: 206bd84424596ea448671b5741d29729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9262\uFF12"
+    second: {fileID: 2100000, guid: 1ebf76bb763885f47ba0d66d6c8d4247, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u93E1"
+    second: {fileID: 2100000, guid: 63dce068e58406449bb8e4fc9475e3a2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baseboards_Baseboards_BaseColor
+    second: {fileID: 2800000, guid: f4962f6893b73704ebefc204ba153c17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Baseboards_Baseboards_Roughness
+    second: {fileID: 2800000, guid: 792f3968421957e40bcf315f6ecce50c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Photo_\u58C1\u5199\u771F\uFF11_BaseColor"
+    second: {fileID: 2800000, guid: 935951e99b5574344a3fd0969d84d10f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "Photo_\u58C1\u5199\u771F\uFF12_BaseColor"
+    second: {fileID: 2800000, guid: 8f2fc7766828d5c408fa53540e9d41b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: air_con_01 - Default_BaseColor
+    second: {fileID: 2800000, guid: 01ac9639388ac1c4b8cbd3594e97ee7c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: air_con_01 - Default_Normal
+    second: {fileID: 2800000, guid: 591cde71fb55003489d8e1f016286d20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_bed_Normal
+    second: {fileID: 2800000, guid: 92f80678566bc6f41a5935c588efb9ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_bed_Roughness
+    second: {fileID: 2800000, guid: 6d8f6745485d2a44d879d18bc6f0ae79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_mat_BaseColor
+    second: {fileID: 2800000, guid: 4e977244060cbc342982980f490a1108, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_mat_Normal
+    second: {fileID: 2800000, guid: a08a832979e4e0848884e97e0b489f39, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_mat_Roughness
+    second: {fileID: 2800000, guid: 5e031bdc8d20eea45b526ac3fd3e7b96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_pullow_Normal
+    second: {fileID: 2800000, guid: 8d2a5efe917ec9641a42454e1dabf1a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: bed_sheet_Normal
+    second: {fileID: 2800000, guid: 5068ce400c8d0c94da52d33a4e5c760f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "bed_\u30B7\u30FC\u30C8\uFF3F\u60A0_BaseColor"
+    second: {fileID: 2800000, guid: ee0b38245c6461c4399928fc0bdd2210, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "bed_\u30D9\u30C3\u30C9\uFF3F\u60A0_BaseColor"
+    second: {fileID: 2800000, guid: 05a027aef70c1ab42a1462e745db3bfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "bed_\u6795\uFF3F\u60A0_BaseColor"
+    second: {fileID: 2800000, guid: 510573d36be05334ab0799992c02d88b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "bonsai_\u76C6\u683D_BaseColor"
+    second: {fileID: 2800000, guid: 800d8fa60593b2343937240ab1e6a71e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "bonsai_\u9262\u690D\u3048_BaseColor"
+    second: {fileID: 2800000, guid: 585b4f1639fcb4a46a2f50678c1bf546, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ceiling_ceiling_BaseColor
+    second: {fileID: 2800000, guid: 1e49f394b6cc9304a9d291d9d135fc03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ceiling_ceiling_Normal
+    second: {fileID: 2800000, guid: 3c19e898e125300418b44b8139b81054, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ceiling_light_ceiling_light_BaseColor
+    second: {fileID: 2800000, guid: 038e01a86bb5ef04285f119e927b123a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ceiling_light_ceiling_light_Emissive
+    second: {fileID: 2800000, guid: 433ceb9f5bc9e1e4aa8b77bf7d0f4a54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_BaseColor
+    second: {fileID: 2800000, guid: b92628a4359e4ab4fa982e99612b31fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_Normal
+    second: {fileID: 2800000, guid: e89a74eb7b5aad2468a4cc314075416e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_door_BaseColor
+    second: {fileID: 2800000, guid: d2e303bdcdc36124a921c9c8d84f9ae5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_door_Normal
+    second: {fileID: 2800000, guid: f30e15bf1f884204d9f84671116b8cb9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_door_Roughness
+    second: {fileID: 2800000, guid: 7001bb0d5c28166489956916002e628d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: closet_closet_frame_BaseColor
+    second: {fileID: 2800000, guid: 93588403ab9fcc04994470508c153718, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtain_Curtain rail_BaseColor
+    second: {fileID: 2800000, guid: c27bda83b2dd23143aede9f8bf283fe0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtain_Curtain rail_Roughness
+    second: {fileID: 2800000, guid: 3d06c05aa968ef5469029bb86a7f2ff8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtain_Curtain_Normal
+    second: {fileID: 2800000, guid: a6e5c40674be31a42bcc26bc3304b07a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtain_Window frame_BaseColor
+    second: {fileID: 2800000, guid: 48ea209a4b255a54c9fbaa312b103524, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: curtain_Window frame_Metallic
+    second: {fileID: 2800000, guid: cfd41790eedd05e4c9376cb0ba5a2210, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "curtain_\u30AB\u30FC\u30C6\u30F3\uFF3F\u60A0_BaseColor"
+    second: {fileID: 2800000, guid: 2e9a8ffdccdbc5b4da5a7cc7e1f30b3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "desk_rug_yu_\u30E9\u30B0_BaseColor"
+    second: {fileID: 2800000, guid: 3c23eeba91e04644e9dad282bb0d2f38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "desk_rug_yu_\u673A_BaseColor"
+    second: {fileID: 2800000, guid: eb447a52284a64842987f2a2dbaa3fd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: 3841e0b35a06f1f47991414586ed9232, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 2f40325d5891004488be502694cdeb84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: door_DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: 47858644f84e26d45ae0315163bb0b55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor_floor_BaseColor
+    second: {fileID: 2800000, guid: 8f60e3fe18ae10240a1463df7da641dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor_floor_Normal
+    second: {fileID: 2800000, guid: f86dd4b9afa55e44488fc95a79f07057, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: floor_floor_Roughness
+    second: {fileID: 2800000, guid: f1a9b4b00350238428125d77a03e6901, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hook_hook_BaseColor
+    second: {fileID: 2800000, guid: 973dc82cce4cf464da590706a7a3f106, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hook_hook_Metallic
+    second: {fileID: 2800000, guid: a89c36c93931ba34286ee5de17957dd5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hook_hook_Normal
+    second: {fileID: 2800000, guid: a8305357f105b4645bc61cf088c71cad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iphon2_iphone_BaseColor
+    second: {fileID: 2800000, guid: 0ae76b59d028d734ca390171f22b2c82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iphon2_iphone_Emissive
+    second: {fileID: 2800000, guid: 9ba0665a0b353654084edbf0eb5d6955, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iphon2_iphone_Normal
+    second: {fileID: 2800000, guid: 386198b1f48d6fc4d8dc3127e1f1bbf5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iphon2_iphone_Roughness
+    second: {fileID: 2800000, guid: 215d882bb425bdd4c80f7913c6749650, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "muscle training_\u30C0\u30F3\u30D9\u30EB_BaseColor"
+    second: {fileID: 2800000, guid: fd176beed9258924baaca7ee6fb758ab, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "muscle training_\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30DE\u30B7\u30FC\u30F3_BaseColor"
+    second: {fileID: 2800000, guid: c9ac9537046771e499b87ee1443bd6a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panda_doll_panda_doll_BaseColor
+    second: {fileID: 2800000, guid: cfe510eb206a8fa41bb73a66c3d6426d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panda_doll_panda_doll_Normal
+    second: {fileID: 2800000, guid: 570b936532401f6458de96beb87e1c2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panda_doll_panda_doll_Roughness
+    second: {fileID: 2800000, guid: 89ca2a3b4be9451488d22fae045b2990, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "senbei_\u305B\u3093\u3079\u3044_BaseColor"
+    second: {fileID: 2800000, guid: 0f516b12a5883a34daa6bfbf7a1234a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u6728_BaseColor"
+    second: {fileID: 2800000, guid: 697d06b2c368f7a4a83b8b0f9eff6071, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF11_BaseColor"
+    second: {fileID: 2800000, guid: a02eb1a15ec2f004e89cf8614dcb864b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF12_BaseColor"
+    second: {fileID: 2800000, guid: 81ab1ab83119e684b8e4f7a8527a1602, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF13_BaseColor"
+    second: {fileID: 2800000, guid: 1228ea9e589dea641a578ba829b8b582, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF14_BaseColor"
+    second: {fileID: 2800000, guid: 149efb1b23ed44e4f89899f29204e3fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF15_BaseColor"
+    second: {fileID: 2800000, guid: 31512dc679652624ea4020697d9c2698, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF16_BaseColor"
+    second: {fileID: 2800000, guid: f475a5201fda1a347936525638c3285a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u672C\uFF17_BaseColor"
+    second: {fileID: 2800000, guid: 9f5ff0cc88a0c0d41af16e1cc2f843a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u68DA_BaseColor"
+    second: {fileID: 2800000, guid: 59fad0b9cb554aa45b955d974d9ed2c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u74F6_BaseColor"
+    second: {fileID: 2800000, guid: 17cbd6dd71d22aa4cbaafd9f911819a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u82B1\u74F6_BaseColor"
+    second: {fileID: 2800000, guid: 8246ff4d8541851419dc41ed0ec1bc9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u830E_BaseColor"
+    second: {fileID: 2800000, guid: f5bb5007b1a36bb4b81071896f122b54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u8449_BaseColor"
+    second: {fileID: 2800000, guid: 9b117b552e0f16b4ba4d93973da089fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u8449\uFF12_BaseColor"
+    second: {fileID: 2800000, guid: 61eedd6587c717146b691532b4a7bd67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u8594\u8587_BaseColor"
+    second: {fileID: 2800000, guid: a9a82e87eb6bc544980dbca9241fdca1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u9262_BaseColor"
+    second: {fileID: 2800000, guid: 46cd140bc4546094e864567e64ccc76b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u9262\uFF12_BaseColor"
+    second: {fileID: 2800000, guid: c18bcbe95df02d84ba0d7ded9cedf0a8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "shelf_\u93E1_BaseColor"
+    second: {fileID: 2800000, guid: 36a413d507da40d44b8d524e5ac95dc1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "sofa_\u30BD\u30D5\u30A1_BaseColor"
+    second: {fileID: 2800000, guid: a31e6fac7e55e134dae93a89f107df9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "tv_yu_\u58C1\u639B\u3051\u30C6\u30EC\u30D3_BaseColor"
+    second: {fileID: 2800000, guid: e41c16ee3ba42e54082e84be0bcef3d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "tv_yu_\u58C1\u639B\u3051\u30C6\u30EC\u30D3_Roughness"
+    second: {fileID: 2800000, guid: d10e857bfc4106a4fa86c595743d6ce9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "wall_yu_\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8_BaseColor"
+    second: {fileID: 2800000, guid: 290b93a8c2a59a647b8d5a7b15ea38eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "wall_yu_\u30B9\u30DD\u30C3\u30C8\u30E9\u30A4\u30C8_Emissive"
+    second: {fileID: 2800000, guid: b91f7ffe99b7862428089dfaadd39342, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "wall_yu_\u58C1\uFF3F\u60A0_BaseColor"
+    second: {fileID: 2800000, guid: 293c769567f2b5e4bbf85ec3b0f24fb1, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

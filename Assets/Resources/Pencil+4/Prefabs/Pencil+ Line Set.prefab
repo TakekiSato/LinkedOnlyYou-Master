@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476960}
+  - component: {fileID: 11416082}
+  m_Layer: 0
+  m_Name: Pencil+ Line Set
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11416082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 186894155, guid: 41e71ed3aed1f7e498525ee71e76718d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Id: 1
+  Objects: []
+  Materials: []
+  WeldsEdges: 0
+  MaskHiddenLines: 0
+  VBrushSettings: {fileID: 0}
+  VOutlineOn: 1
+  VOutlineSpecificOn: 0
+  VOutline: {fileID: 0}
+  VObjectOn: 1
+  VObjectSpecificOn: 0
+  VObject: {fileID: 0}
+  VIntersectionOn: 1
+  VIntersectionSpecificOn: 0
+  VIntersection: {fileID: 0}
+  VSmoothOn: 1
+  VSmoothSpecificOn: 0
+  VSmooth: {fileID: 0}
+  VMaterialOn: 1
+  VMaterialSpecificOn: 0
+  VMaterial: {fileID: 0}
+  VNormalAngleOn: 0
+  VNormalAngleSpecificOn: 0
+  VNormalAngle: {fileID: 0}
+  VNormalAngleMin: 45
+  VNormalAngleMax: 180
+  VWireframeOn: 0
+  VWireframeSpecificOn: 0
+  VWireframe: {fileID: 0}
+  VSizeReductionOn: 0
+  VSizeReduction: {fileID: 0}
+  VAlphaReductionOn: 0
+  VAlphaReduction: {fileID: 0}
+  HBrushSettings: {fileID: 0}
+  HOutlineOn: 0
+  HOutlineSpecificOn: 0
+  HOutline: {fileID: 0}
+  HObjectOn: 0
+  HObjectSpecificOn: 0
+  HObject: {fileID: 0}
+  HIntersectionOn: 0
+  HIntersectionSpecificOn: 0
+  HIntersection: {fileID: 0}
+  HSmoothOn: 0
+  HSmoothSpecificOn: 0
+  HSmooth: {fileID: 0}
+  HMaterialOn: 0
+  HMaterialSpecificOn: 0
+  HMaterial: {fileID: 0}
+  HNormalAngleOn: 0
+  HNormalAngleSpecificOn: 0
+  HNormalAngle: {fileID: 0}
+  HNormalAngleMin: 45
+  HNormalAngleMax: 180
+  HWireframeOn: 0
+  HWireframeSpecificOn: 0
+  HWireframe: {fileID: 0}
+  HSizeReductionOn: 0
+  HSizeReduction: {fileID: 0}
+  HAlphaReductionOn: 0
+  HAlphaReduction: {fileID: 0}
