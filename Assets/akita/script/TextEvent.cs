@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TextEvent : MonoBehaviour
 {
@@ -76,6 +77,11 @@ public class TextEvent : MonoBehaviour
         obj.transform.localPosition = textBoxRInitPos;
 
         tc = obj.GetComponent<TextChanger>();
+        if (ctd.GetChoice(_num) == "end")
+        {
+            var nextScene = ctd.GetChoice(_num + 1);
+            SceneManager.LoadScene(nextScene);
+        }
         tc.ChangeText(ctd.GetChoice(_num), fontSize, true);
         EnterQueue(obj);
     }
