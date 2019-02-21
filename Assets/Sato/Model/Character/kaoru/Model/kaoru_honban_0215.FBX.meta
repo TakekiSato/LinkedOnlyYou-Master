@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27f4a85403fde174da398fd326eef1ed
+guid: 40d5639152ed8c648ab4109d4ce69e12
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -412,77 +412,7 @@ ModelImporter:
     13700030: pyon2_phy
     13700032: pyon3_phy
     2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 4f11adce932c98345960915ccbaef367, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye_highlight_tex
-    second: {fileID: 2100000, guid: 971cc521e3f164143a08280b7e508232, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye_tex
-    second: {fileID: 2100000, guid: 6e8213a32e885aa478b7577731d924ca, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ha_tex
-    second: {fileID: 2100000, guid: ef423d99064bc574b8fefcc26b1d2a7c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hada_tex
-    second: {fileID: 2100000, guid: 99e123bd652cffe448d9787dcbe6ba8b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hair_tex
-    second: {fileID: 2100000, guid: 2de3548768eb9354f80480119fa09b46, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: huku_tex
-    second: {fileID: 2100000, guid: 94c403e0664204f4287df42248fd0701, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: megane_tex
-    second: {fileID: 2100000, guid: 593894ddc4e7ae54683df49b261836df, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: piasu1_tex
-    second: {fileID: 2100000, guid: 724738781b942a9479ec8fe5af3906a8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: piasu2_tex
-    second: {fileID: 2100000, guid: b52d07fa61b847048b01fa4eb1e26a1e, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: k_eye_tex
-    second: {fileID: 2800000, guid: 54e84cea5208dea4ea0e8695887c7f32, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: k_face_tex
-    second: {fileID: 2800000, guid: 39877a4917944a44191bf92b589af2ba, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: k_hair_tex
-    second: {fileID: 2800000, guid: d0ab65e830231d94c9c7ee4973176e12, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: k_heyagi_tex
-    second: {fileID: 2800000, guid: f5d0f63ff0612ad469580db666ec5bac, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

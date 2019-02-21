@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 365ee539111ae354fbab7ff89c8275f2
+guid: 0ed38c9c6017b7140936df82b07efcad
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -360,7 +360,7 @@ ModelImporter:
     4300032: "\u8170\u30EA\u30DC\u30F3_tex"
     4300034: "\u751A\u5E73_tex"
     4300036: "\u30BD\u30D5\u30A1"
-    7400000: Common1
+    7400000: Take 001
     9500000: //RootNode
     10800000: Spot001
     13700000: "\u6B6F"
@@ -403,35 +403,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Common1
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 260
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fba5dbc13928ec24fa35e5a7b40f7522
+guid: 18929b734542ec8419f015f8e4fb5372
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -363,77 +363,7 @@ ModelImporter:
     13700018: "\u9AEA\u4E0A_tex_phy03"
     13700020: "\u9AEA\u4E0A_tex_phy04"
     2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #2885'
-    second: {fileID: 2100000, guid: 747ec6e06fe2dd5449ac5dad68c08cfe, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #33'
-    second: {fileID: 2100000, guid: c2d1d67607be79f42b698d552ffb235f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: asi
-    second: {fileID: 2100000, guid: a280e66b8a8a7374a99e301133189703, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye1
-    second: {fileID: 2100000, guid: 4d3154e5f7758c540b243c8aa04d501d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: face
-    second: {fileID: 2100000, guid: 50afc35a5294fd441be8e75563cb3fb9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hair1
-    second: {fileID: 2100000, guid: 8168a05fe608cd0429d7f5c404ec46ab, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: piasu
-    second: {fileID: 2100000, guid: 75f02607769ca394c90a68150c967bd5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sofa
-    second: {fileID: 2100000, guid: bdee9e0ff623e214998b9dc74abe3558, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: zinbei
-    second: {fileID: 2100000, guid: a8dd5cfe720f54d40ab6b5b9dad0b7d6, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u624B\u8DB3.tex"
-    second: {fileID: 2800000, guid: 736bb6e3282bfd9479d45cec37dedfe8, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u76EE.tex"
-    second: {fileID: 2800000, guid: 3c8484d402382284b90833fdee9d31e3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u90E8\u5C4B\u7740.tex"
-    second: {fileID: 2800000, guid: a387b60c867f42047992d8ad3c811df6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u9854.tex"
-    second: {fileID: 2800000, guid: 2801979210a8fce46bd2228e1fb03630, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u9AEA.tex"
-    second: {fileID: 2800000, guid: af927610bf8f16b449e451a0501aaf87, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

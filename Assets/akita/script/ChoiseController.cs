@@ -12,7 +12,7 @@ public class ChoiseController : MonoBehaviour
 
     Vector3 pos;
     Vector3 mPosCorrection;
-    const float choisedTime = 5.0f;
+    const float choisedTime = 3.0f;
     const float sensitivityRadius = 3.0f;
     const float increaseRadius = 2.0f;
 

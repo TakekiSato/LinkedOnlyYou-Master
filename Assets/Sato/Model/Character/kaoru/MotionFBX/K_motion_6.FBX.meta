@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54211cbe4955aaa4db2db716fb13a7f1
+guid: 84bdb5f766bfafa45a77d22329d7e906
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -392,7 +392,7 @@ ModelImporter:
     4300048: pyon1_phy
     4300050: pyon2_phy
     4300052: pyon3_phy
-    7400000: motion6
+    7400000: Take 001
     9500000: //RootNode
     13700000: ahoge1_phy
     13700002: ahoge2_phy
@@ -439,35 +439,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: motion6
-      takeName: Take 001
-      firstFrame: 10
-      lastFrame: 460
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
