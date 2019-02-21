@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/tokita/Scene/ChatScene.unity
     guid: 3031b970248907943879f0925823dced
   - enabled: 1
-    path: Assets/tokita/VideoScene.unity
+    path: Assets/tokita/GameScene.unity
     guid: b6d86c621186a9e43a29fa2a361cf48d
   - enabled: 1
     path: Assets/tokita/Scene/EndScene.unity

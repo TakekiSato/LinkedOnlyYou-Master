@@ -11,6 +11,13 @@ public enum SceneName : int
 
 public class Main : MonoBehaviour
 {
+    [RuntimeInitializeOnLoadMethod]
+    static void FirstInit()
+    {
+        GameObject src = Resources.Load("SceneManagers/GameManager") as GameObject;
+        Main main = Instantiate(src).GetComponent<Main>();
+    }
+
     //簡易シングルトン
     static Main _instance = null;
 
