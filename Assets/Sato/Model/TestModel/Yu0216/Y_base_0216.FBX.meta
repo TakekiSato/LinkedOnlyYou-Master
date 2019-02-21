@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a18c2f4f7841c31499572ad4da5ebfb1
+guid: dc801add43005af4ca070d4d9d3b4efd
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -363,77 +363,7 @@ ModelImporter:
     13700018: "\u9AEA\u4E0A_tex_phy03"
     13700020: "\u9AEA\u4E0A_tex_phy04"
     2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #2826'
-    second: {fileID: 2100000, guid: 61023edbe5314de4ca7432ffe56c1978, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #39'
-    second: {fileID: 2100000, guid: 76d1b3cc3874ecd469fd1560a25330bd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #40'
-    second: {fileID: 2100000, guid: 0f77e1b57f6585745ba5ee2e31b9a5bf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: asi
-    second: {fileID: 2100000, guid: a77d9aa948b2615489d524cd5472382f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye1
-    second: {fileID: 2100000, guid: 186b99f29e2e7b14cab1dc50e50b3147, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: face
-    second: {fileID: 2100000, guid: 033be3c09bb6f8d488efe6befe142bf2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hair1
-    second: {fileID: 2100000, guid: e69eef6d57fe7ec438ae52044a91e323, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sofa
-    second: {fileID: 2100000, guid: fbb91b4c08a2a6846adfedd46810fa13, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: zinbei
-    second: {fileID: 2100000, guid: 2c0249f4bd8d93c419320aa0264e603a, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: y_eye_uv1
-    second: {fileID: 2800000, guid: f18eb1e08dffe5644b5051be4f9246a0, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: y_face2_uv.1psd
-    second: {fileID: 2800000, guid: 710dc8872276d224e80d170aa00a5854, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: y_hair_uv.1psd
-    second: {fileID: 2800000, guid: 081db99a2fa142f4ca8748948ab7d5e6, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: y_rw_hand_uv
-    second: {fileID: 2800000, guid: 771e28147cedb8e45a4f20879d11b412, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: "\u60A0.\u90E8\u5C4B\u7740.tex"
-    second: {fileID: 2800000, guid: d6599376147a5d441903754e506f9e8e, type: 3}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -488,8 +418,8 @@ ModelImporter:
     previousCalculatedGlobalScale: 0.0254
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
-    normalSmoothAngle: 180
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0

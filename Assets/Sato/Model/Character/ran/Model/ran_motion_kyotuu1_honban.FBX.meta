@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5b5ac7eb04ef81459550c7b5e0fc0dc
+guid: e5f8a455f058cef40803b28dbabc5cfb
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -1090,47 +1090,7 @@ ModelImporter:
     13700106: "\u90E8\u5C4B\u7740_tex"
     13700108: "\u982D_tex"
     6000828045688606266: Camera001
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 21 - Default
-    second: {fileID: 2100000, guid: 990c50de869cdec4ab34b8aa8339f9e4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #197'
-    second: {fileID: 2100000, guid: 0929f808fe852a140946027c12591275, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #879'
-    second: {fileID: 2100000, guid: 9b94ed33d189e604889c8839acc31b57, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: face
-    second: {fileID: 2100000, guid: d02a9c64f9abf4f4f9a0be7940c7a43f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: hear
-    second: {fileID: 2100000, guid: 6d0804eed196eb54a82aa6141d99a0bf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: rw
-    second: {fileID: 2100000, guid: 8727aaa85755b514b836b035e7c2c927, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "\u6905\u5B50\uFF3F\u5EA7"
-    second: {fileID: 2100000, guid: a877f1c6d7bc4014fbfb57fd724f2299, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "\u6905\u5B50\uFF3F\u811A"
-    second: {fileID: 2100000, guid: 0b69e770084444a498d4950f4711c4d2, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -1185,8 +1145,8 @@ ModelImporter:
     previousCalculatedGlobalScale: 0.0254
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
-    normalSmoothAngle: 180
-    normalImportMode: 1
+    normalSmoothAngle: 60
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
