@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class TitleSceneController : MonoBehaviour, ISceneManager
 {
+    void Awake()
+    {
+        Debug.Log("Awake");
+    }
 
     public void Initialize()
     {
-        
+        Debug.Log("Initialize");
+    }
+
+    void Start()
+    {
+        Debug.Log("Start");
     }
 
     void Update()
@@ -19,9 +28,7 @@ public class TitleSceneController : MonoBehaviour, ISceneManager
     }
 
     public void TransScene()
-    {
-        //遷移やり方
-        Main main = Main.instance;
-        main.GoNext(SceneName.ChatScene);
+    { 
+        Main.instance.GoNext(SceneName.ChatScene);
     }
 }

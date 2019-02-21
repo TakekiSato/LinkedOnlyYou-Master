@@ -16,10 +16,21 @@ public class VideoSceneController : MonoBehaviour, ISceneManager
     [SerializeField] InitModel initModel = InitModel.None;
     ModelLoad modelLoad;
 
+    void Awake()
+    {
+        Debug.Log("Awake");
+    }
+
     public void Initialize()
     {
+        Debug.Log("Initialize");
         modelLoad = new ModelLoad();
         StartCoroutine(modelLoad.Load(initModel));
+    }
+
+    void Start()
+    {
+        Debug.Log("Start");
     }
 
     public void Update()
@@ -32,7 +43,6 @@ public class VideoSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main main = Main.instance;
-        main.GoNext(SceneName.EndScene);
+        Main.instance.GoNext(SceneName.EndScene);
     }
 }

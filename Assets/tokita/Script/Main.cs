@@ -70,6 +70,10 @@ public class Main : MonoBehaviour
         instance.Initialize();
     }
 
+    /// <summary>
+    /// 指定されたシーンへ遷移
+    /// </summary>
+    /// <param name="_next"></param>
     public void GoNext(SceneName _next)
     {
         SceneManager.LoadScene((int)_next);

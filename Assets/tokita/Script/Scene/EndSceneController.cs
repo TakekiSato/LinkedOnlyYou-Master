@@ -4,9 +4,19 @@ using UnityEngine;
 
 public class EndSceneController : MonoBehaviour, ISceneManager
 {
+    void Awake()
+    {
+        Debug.Log("Awake");
+    }
+
     public void Initialize()
     {
+        Debug.Log("Initialize");
+    }
 
+    void Start()
+    {
+        Debug.Log("Start");
     }
 
     public void Update()
@@ -19,7 +29,6 @@ public class EndSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main main = Main.instance;
-        main.GoNext(SceneName.TitleScene);
+        Main.instance.GoNext(SceneName.TitleScene);
     }
 }

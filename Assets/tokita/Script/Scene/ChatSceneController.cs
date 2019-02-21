@@ -30,7 +30,6 @@ public class ChatSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main main = Main.instance;
-        main.GoNext(SceneName.VideoScene);
+        Main.instance.GoNext(SceneName.VideoScene);
     }
 }
