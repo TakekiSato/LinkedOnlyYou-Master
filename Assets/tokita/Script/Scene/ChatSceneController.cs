@@ -30,6 +30,6 @@ public class ChatSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main.instance.GoNext(SceneName.VideoScene);
+        Main.instance.GoNext(SceneName.KaoruScene);
     }
 }

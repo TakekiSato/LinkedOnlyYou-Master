@@ -5,8 +5,9 @@ public enum SceneName : int
 {
     TitleScene = 0,
     ChatScene,
-    VideoScene,
-    EndScene
+    KaoruScene,
+    YuScene,
+    RanScene
 }
 
 public class Main : MonoBehaviour
@@ -49,7 +50,7 @@ public class Main : MonoBehaviour
         }
     }
 
-    [SerializeField] GameObject[] sceneManagers = new GameObject[4];
+    [SerializeField] GameObject[] sceneManagers = new GameObject[5];
 
     void Start()
     {

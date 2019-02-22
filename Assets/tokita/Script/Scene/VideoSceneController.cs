@@ -43,6 +43,6 @@ public class VideoSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main.instance.GoNext(SceneName.EndScene);
+        Main.instance.GoNext(SceneName.YuScene);
     }
 }

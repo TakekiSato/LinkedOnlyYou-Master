@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/tokita/Scene/TitleScene.unity
     guid: 7780ec0259468ca4da9caf12d2e21d89
   - enabled: 1
-    path: Assets/tokita/Scene/ChatScene.unity
-    guid: 3031b970248907943879f0925823dced
+    path: Assets/akita/SampleA.unity
+    guid: a30f30dc15cd21941a5eb57928d25b92
   - enabled: 1
-    path: Assets/tokita/GameScene.unity
-    guid: b6d86c621186a9e43a29fa2a361cf48d
+    path: Assets/Sato/Scene/KaoruModelScene.unity
+    guid: 624f807dc87b0ce4e9a6b6f2ac61c7ba
   - enabled: 1
-    path: Assets/tokita/Scene/EndScene.unity
-    guid: 58b0c286a483eff4baf6010a792fb45d
+    path: Assets/Sato/Scene/YuModelScene.unity
+    guid: bcbc959d18faaa443be0b78a23c2f78f
+  - enabled: 1
+    path: Assets/Sato/Scene/RanModelScene.unity
+    guid: 80c31d6f1142e1547958b174517c81aa
   m_configObjects: {}

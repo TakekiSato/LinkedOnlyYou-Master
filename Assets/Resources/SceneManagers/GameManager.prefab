@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9097058518803517483}
   - component: {fileID: 707537129208212804}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: GameManager
   m_TagString: MainController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,5 +46,6 @@ MonoBehaviour:
   sceneManagers:
   - {fileID: 1717476132275664212, guid: c1b032e63e1e030419051149b9e3541e, type: 3}
   - {fileID: 8441329388249765114, guid: 0222351977ca1ff49b7ac642a8cd1f95, type: 3}
+  - {fileID: 4768014088719592577, guid: a3ed6d8606b5ae048b661d2201d24154, type: 3}
   - {fileID: 2476997148286285060, guid: 7834a9ef294d72d48bef9194e0318b61, type: 3}
   - {fileID: 4768014088719592577, guid: 7c1069a579f458743a4ebf1fa1828a51, type: 3}
