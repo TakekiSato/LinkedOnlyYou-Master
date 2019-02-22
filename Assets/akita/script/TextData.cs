@@ -7,6 +7,7 @@ class TextDataSet
     public string question;
     public int replyCount;
     public bool isJump;
+    public bool isNextScene;
     public string[] reply;
     public Sprite[] sprite;
     public string[] jump;
@@ -16,6 +17,7 @@ class TextDataSet
         question = _question;
         replyCount = 0;
         isJump = false;
+        isNextScene = false;
     }
 
     public void SetReplyCount(int _count)
@@ -40,6 +42,8 @@ class TextDataSet
         if (!isJump)
         {
             isJump = true;
+            if (MyFunctions.GetExtension(_filePath) == "csv") isNextScene = false;
+            else isNextScene = true;
             jump = new string[replyCount];
         }
 
@@ -83,7 +87,8 @@ class CharaTextData
             int count = (_ed.GetRowCount(col) - 1) / 3;
             for (int row = 1; row < _ed.GetRowCount(col); row += 3)
             {
-                if (_ed.GetCell(row, col) != "") continue;
+                if (_ed.GetCell(row, col) != "" ||
+                    _ed.GetCell(row + 1, col) != "") continue;
                 count = (row - 1) / 3;
                 break;
             }
@@ -120,13 +125,13 @@ class CharaTextData
         return dataList[nowCount].question;
     }
 
-    public int GetChoiceCount()
+    public int GetReplyCount()
     {
         if (isInvalid) return 0;
         return dataList[nowCount].replyCount;
     }
 
-    public string GetChoice(int _num)
+    public string GetReply(int _num)
     {
         if (isInvalid) return "";
         if (_num < dataList[nowCount].replyCount) return dataList[nowCount].reply[_num];
@@ -136,6 +141,11 @@ class CharaTextData
     public bool GetIsJump()
     {
         return dataList[nowCount].isJump;
+    }
+
+    public bool GetIsNextScene()
+    {
+        return dataList[nowCount].isNextScene;
     }
 
     public string GetJump(int _num)
@@ -162,8 +172,7 @@ class MyFunctions
 {
     public static Sprite CreateSprite(string _path)
     {
-        int dot = _path.LastIndexOf('.');
-        return Resources.Load<Sprite>(_path.Substring(0, dot));
+        return Resources.Load<Sprite>(RemoveExtension(_path));
     }
 
     public static void LineFeed(ref string _str)
@@ -182,5 +191,12 @@ class MyFunctions
         int dot = _str.LastIndexOf('.');
         if (dot < 0) return "";
         return _str.Substring(dot + 1);
+    }
+
+    public static string RemoveExtension(string _str)
+    {
+        int dot = _str.LastIndexOf('.');
+        if (dot < 0) return _str;
+        return _str.Substring(0, dot);
     }
 }

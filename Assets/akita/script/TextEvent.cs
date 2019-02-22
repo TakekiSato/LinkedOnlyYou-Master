@@ -15,7 +15,7 @@ public class TextEvent : MonoBehaviour
     GameObject textBoxRPrefab;
     [SerializeField]
     GameObject choiseBoxPrefab;
-    
+
     CharaTextData ctd;
     Queue<GameObject> textBoxs;
     Queue<GameObject> icons;
@@ -30,7 +30,7 @@ public class TextEvent : MonoBehaviour
     const float fontSize = 40.0f;
     const float betweenLines = 0.5f;
     const float correByFont = 0.05f;
-    const float noChoiceWaitTime = 3.0f;
+    const float noChoiceWaitTime = 2.0f;
 
     void Start()
     {
@@ -39,7 +39,7 @@ public class TextEvent : MonoBehaviour
         choiseBoxes = new GameObject[maxChoiseCount];
         ctd = new CharaTextData(ed);
         if (ctd.IsInvalid) return;
-        
+
         textBoxLInitPos = new Vector3(-12, 12, 10);
         textBoxRInitPos = new Vector3(+12, 12, 10);
         choiseBoxInitPosCenter = new Vector3(0, -8, 10);
@@ -53,18 +53,30 @@ public class TextEvent : MonoBehaviour
     public void Choised(int _num)
     {
         SendChoisedText(_num);
-        
-        if (ctd.GetIsJump())
+
+        if (!ctd.GetIsJump())
         {
-            //拡張子確認後テキストデータ更新かシーン遷移か選べばいいかと
+            UpdateTexts(false);
+            return;
+        }
+
+        string extension = MyFunctions.GetExtension(ctd.GetJump(_num));
+        if (extension == "csv")
+        {
             ExcelData ed = new ExcelData(Application.dataPath + "/akita/" + ctd.GetJump(_num), true);
             ctd = new CharaTextData(ed);
             UpdateTexts(true);
         }
-        else
+        else /*if (extension == "unity")*/
         {
-            UpdateTexts(false);
+            JumpNextStage(_num);
         }
+    }
+
+    void JumpNextStage(int _num)//現状、csvファイルを見ると引数は不必要かもしれない
+    {
+        string fileName = MyFunctions.RemoveExtension(ctd.GetJump(_num));
+        StartCoroutine(TransitionNextScene(fileName));
     }
 
     void SendChoisedText(int _num)
@@ -77,12 +89,7 @@ public class TextEvent : MonoBehaviour
         obj.transform.localPosition = textBoxRInitPos;
 
         tc = obj.GetComponent<TextChanger>();
-        if (ctd.GetChoice(_num) == "end")
-        {
-            var nextScene = ctd.GetChoice(_num + 1);
-            SceneManager.LoadScene(nextScene);
-        }
-        tc.ChangeText(ctd.GetChoice(_num), fontSize, true);
+        tc.ChangeText(ctd.GetReply(_num), fontSize, true);
         EnterQueue(obj);
     }
 
@@ -109,13 +116,19 @@ public class TextEvent : MonoBehaviour
         }
 
 
-        if (ctd.GetChoiceCount() == 0)
+        if (ctd.GetIsNextScene())
+        {
+            JumpNextStage(0);
+            return;
+        }
+
+        if (ctd.GetReplyCount() == 0)
         {
             StartCoroutine(IntervalForNextText());
             return;
         }
 
-        int startNum = (ctd.GetChoiceCount() != 2) ? 1 : 0;
+        int startNum = (ctd.GetReplyCount() != 2) ? 1 : 0;
         if (startNum == 1)
         {
             choiseBoxes[0] = Instantiate(choiseBoxPrefab);
@@ -129,7 +142,7 @@ public class TextEvent : MonoBehaviour
             cc = choiseBoxes[0].GetComponent<ChoiseController>();
             cc.Init(0, this);
         }
-        for (int i = startNum; i < ctd.GetChoiceCount(); ++i)
+        for (int i = startNum; i < ctd.GetReplyCount(); ++i)
         {
             choiseBoxes[i] = Instantiate(choiseBoxPrefab);
             choiseBoxes[i].transform.parent = canvas.transform;
@@ -168,6 +181,13 @@ public class TextEvent : MonoBehaviour
     {
         yield return new WaitForSeconds(noChoiceWaitTime);
         UpdateTexts(false);
+        yield break;
+    }
+
+    IEnumerator TransitionNextScene(string _sceneName)
+    {
+        yield return new WaitForSeconds(noChoiceWaitTime);
+        SceneManager.LoadScene(_sceneName);
         yield break;
     }
 }
