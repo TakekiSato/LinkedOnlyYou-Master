@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 92ef56c41995e0041a740ee831891d2a
+guid: 46310eab1756103468f75226dca3ff51
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -1026,7 +1026,7 @@ ModelImporter:
     4300128: 46_tex_phy
     4300130: "\u6905\u5B50\uFF3F\u5EA7"
     4300132: "\u6905\u5B50\uFF3F\u811A"
-    7400000: Take 001
+    7400000: Waiting
     9500000: //RootNode
     10800000: Spot001
     13700000: 01_tex_phy
@@ -1111,7 +1111,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Waiting
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

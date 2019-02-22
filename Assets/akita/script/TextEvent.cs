@@ -89,7 +89,6 @@ public class TextEvent : MonoBehaviour
         obj.transform.localPosition = textBoxRInitPos;
 
         tc = obj.GetComponent<TextChanger>();
-
         tc.ChangeText(ctd.GetReply(_num), fontSize, true);
         EnterQueue(obj);
     }

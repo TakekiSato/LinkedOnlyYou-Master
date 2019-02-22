@@ -41,7 +41,8 @@ public class ChoiseController : MonoBehaviour
     void Update()
     {
         Vector3 look = camera.transform.rotation * Vector3.forward;
-        Vector3 d = transform.position - Camera.main.transform.position;
+        //Vector3 d = transform.position - Camera.main.transform.position;
+        Vector3 d = transform.position - camera.transform.position;
         d = look - d.normalized;
         if (d.x * d.x + d.y * d.y + d.z * d.z <= 0.03f/*適当*/)
         {
