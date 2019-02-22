@@ -4,20 +4,9 @@ using UnityEngine;
 
 public class ChatSceneController : MonoBehaviour, ISceneManager
 {
-
-    void Awake()
-    {
-        Debug.Log("Awake");
-    }
-
     public void Initialize()
     {
         Debug.Log("Initialize");
-    }
-
-    void Start()
-    {
-        Debug.Log("Start");
     }
 
     public void Update()
@@ -30,6 +19,6 @@ public class ChatSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main.instance.GoNext(SceneName.KaoruScene);
+        Main.instance.GoNext((int)Main.instance.select);
     }
 }

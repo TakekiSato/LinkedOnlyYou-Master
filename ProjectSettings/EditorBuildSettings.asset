@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/tokita/Scene/TitleScene.unity
+    path: Assets/Sato/Scene/TitleScene.unity
     guid: 7780ec0259468ca4da9caf12d2e21d89
   - enabled: 1
     path: Assets/akita/SampleA.unity
