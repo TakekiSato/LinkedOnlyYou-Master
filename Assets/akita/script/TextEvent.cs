@@ -108,8 +108,10 @@ public class TextEvent : MonoBehaviour
         tc = obj.GetComponent<TextChanger>();
         tc.ChangeText(ctd.GetQuestion(), fontSize);
         tc.ChangeIcon(ctd.GetIcon());
-
         EnterQueue(obj);
+
+        SoundedPartnerVoice(ctd.GetQuestion());
+
         for (int i = 0; i < maxChoiseCount; ++i)
         {
             if (null != choiseBoxes[i]) Destroy(choiseBoxes[i]);
@@ -189,5 +191,10 @@ public class TextEvent : MonoBehaviour
         yield return new WaitForSeconds(noChoiceWaitTime);
         SceneManager.LoadScene(_sceneName);
         yield break;
+    }
+
+    void SoundedPartnerVoice(string _str)
+    {
+
     }
 }

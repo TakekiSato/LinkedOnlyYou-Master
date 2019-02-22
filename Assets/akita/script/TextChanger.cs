@@ -27,7 +27,11 @@ public class TextChanger : MonoBehaviour
         for (int i = 0; i < _text.Length; ++i)
         {
             int count = _text.IndexOf('\n', start);
-            if (count == -1) break;
+            if (count == -1)
+            {
+                if (_text.Length - start > charaCount) charaCount = _text.Length - start;
+                break;
+            }
             ++lines;
             if (count - start > charaCount) charaCount = count - start;
             start = count + 1;
