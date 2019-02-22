@@ -5,9 +5,19 @@ public enum SceneName : int
 {
     TitleScene = 0,
     ChatScene,
-    VideoScene,
-    EndScene
+    KaoruScene,
+    YuScene,
+    RanScene
 }
+
+public enum SelectCharacter : int
+{
+    Kaoru = 2,
+    Yu = 3,
+    Ran = 4,
+    None = 999
+}
+
 
 public class Main : MonoBehaviour
 {
@@ -49,7 +59,8 @@ public class Main : MonoBehaviour
         }
     }
 
-    [SerializeField] GameObject[] sceneManagers = new GameObject[4];
+    [SerializeField] GameObject[] sceneManagers = new GameObject[5];
+    [HideInInspector] public SelectCharacter select = SelectCharacter.None;
 
     void Start()
     {
@@ -74,8 +85,8 @@ public class Main : MonoBehaviour
     /// 指定されたシーンへ遷移
     /// </summary>
     /// <param name="_next"></param>
-    public void GoNext(SceneName _next)
+    public void GoNext(int _next)
     {
-        SceneManager.LoadScene((int)_next);
+        SceneManager.LoadScene(_next);
     }
 }

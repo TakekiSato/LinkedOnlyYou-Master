@@ -5,7 +5,7 @@ using UnityEngine;
 public interface ISceneManager
 {
     /// <summary>
-    /// シーン生成時一度呼ばれる
+    ///sceneのロードが完了した時点でstartよりも早いタイミングで呼ばれる
     /// </summary>
     void Initialize();
 

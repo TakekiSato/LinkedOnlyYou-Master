@@ -1,34 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class TitleSceneController : MonoBehaviour, ISceneManager
 {
-    void Awake()
-    {
-        Debug.Log("Awake");
-    }
-
     public void Initialize()
     {
         Debug.Log("Initialize");
+        VideoPlayer _videoPlayer = GameObject.FindWithTag("VideoPlane").GetComponent<VideoPlayer>();
+        _videoPlayer.loopPointReached += EndVideo;
     }
 
-    void Start()
+    void EndVideo(VideoPlayer _p)
     {
-        Debug.Log("Start");
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            TransScene();
-        }
+        TransScene();
     }
 
     public void TransScene()
     { 
-        Main.instance.GoNext(SceneName.ChatScene);
+        Main.instance.GoNext((int)SceneName.ChatScene);
     }
 }
