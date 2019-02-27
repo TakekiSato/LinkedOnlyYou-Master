@@ -19,6 +19,6 @@ public class TitleSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     { 
-        Main.instance.GoNext((int)SceneName.ChatScene);
+        Main.instance.GoNext((int)SceneName.ChatScene); //つまりこいつが呼べればシーン遷移できる
     }
 }
