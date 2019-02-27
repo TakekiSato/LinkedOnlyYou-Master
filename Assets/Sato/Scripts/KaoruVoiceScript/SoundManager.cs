@@ -14,17 +14,17 @@ public class SoundManager : MonoBehaviour
 
     public enum VOICE_LIST
     {
-        K_COMMON_1,
-        K_QUESTION_A,
-        K_REPLY_A,
-        K_REPLY_I,
-        K_QUESTION_B,
-        K_REPLY_U,
-        K_REPLY_E,
-        K_COMMON_2,
-        K_ED_1,
-        K_ED_2,
-        K_COMMON_3
+        COMMON_1,
+        QUESTION_A,
+        REPLY_A,
+        REPLY_I,
+        QUESTION_B,
+        REPLY_U,
+        REPLY_E,
+        COMMON_2,
+        ED_1,
+        ED_2,
+        COMMON_3
     }
 
     void Awake()
