@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sato/Scene/TitleScene.unity
     guid: 7780ec0259468ca4da9caf12d2e21d89
-  - enabled: 1
+  - enabled: 0
     path: Assets/akita/SampleA.unity
     guid: a30f30dc15cd21941a5eb57928d25b92
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sato/Scene/KaoruModelScene.unity
     guid: 624f807dc87b0ce4e9a6b6f2ac61c7ba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sato/Scene/YuModelScene.unity
     guid: bcbc959d18faaa443be0b78a23c2f78f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sato/Scene/RanModelScene.unity
     guid: 80c31d6f1142e1547958b174517c81aa
   m_configObjects: {}
