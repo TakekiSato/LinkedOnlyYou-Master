@@ -10,6 +10,22 @@ public class ChoiseMakingManager : MonoBehaviour
 
     GameObject canvas;
 
+    public enum Member
+    {
+        Kaoru,
+        Yu,
+        Ran
+    }
+
+    public Member member;
+
+    Vector3[] memberUIPos =
+    {
+        new Vector3(0f, 0.6f, 0f),
+        new Vector3(0f, 1f, -0.7f),
+        new Vector3(0f, 0.6f, 0f)
+    };
+
     void Start()
     {
         canvas = GameObject.Find("Canvas");
@@ -19,6 +35,6 @@ public class ChoiseMakingManager : MonoBehaviour
     {
         var choiseObj = Instantiate(choiseObjects[num]);
         choiseObj.transform.parent = canvas.transform;
-        choiseObj.transform.position = new Vector3(0f, 0.6f, 0f);
+        choiseObj.transform.position = memberUIPos[(int)member];
     }
 }

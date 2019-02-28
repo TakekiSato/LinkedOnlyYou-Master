@@ -51,6 +51,22 @@ public class ChoiseManager : MonoBehaviour
 
     [SerializeField]
     AnimeName NextPlayAnime;
+
+    public enum ModelName
+    {
+        Kaoru,
+        Yu,
+        Ran
+    }
+
+    public ModelName name;
+
+    string[] modelNames = 
+    {
+        "KaoruModel",
+        "YuModel",
+        "RanModel"
+    };
     GameObject model;
 
     public void Init(int _num, TextEvent _manager)
@@ -66,7 +82,7 @@ public class ChoiseManager : MonoBehaviour
         outOfCircle = true;
         
         camera = GameObject.Find("[CameraRig]").GetComponentInChildren<Camera>();
-        model = GameObject.Find("KaoruModel");
+        model = GameObject.Find(modelNames[(int)name]);
     }
 
     void Update()

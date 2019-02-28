@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9e5c6421e0ac2ca418ca30a10c4722ff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8579fa45d92426545b48a1dada140a6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -91,6 +91,7 @@ MonoBehaviour:
   choiseCircle: {fileID: 4102747550209109628}
   nowCountTime: 0
   NextPlayAnime: 1
+  name: 1
 --- !u!1 &4102747550209109506
 GameObject:
   m_ObjectHideFlags: 0
