@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecf696ce73d90de47835de67b9e6db92
+guid: dd48685cd339cc14fa36923af83c5ea3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -444,25 +444,29 @@ ModelImporter:
     100876: Bone262
     100878: Bone263
     100880: Bone264
-    100882: //RootNode
-    100884: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    100886: "\u30D1\u30F3\u30C0"
-    100888: "\u30D1\u30F3\u30C002"
-    100890: "\u30DC\u30BF\u30F3_tex"
-    100892: "\u30E1\u30AC\u30CD_tex"
-    100894: "\u30EA\u30DC\u30F3_tex"
-    100896: "\u4E09\u3064\u7DE8\u307F_tex"
-    100898: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    100900: "\u624B_tex"
-    100902: "\u6905\u5B50\uFF3F\u5EA7"
-    100904: "\u6905\u5B50\uFF3F\u811A"
-    100906: "\u6B6F\u3000\u4E0A_tex"
-    100908: "\u6B6F\u3000\u4E0B_tex"
-    100910: "\u77B302_tex"
-    100912: "\u77B3_tex"
-    100914: "\u895F\u8DB3_tex"
-    100916: "\u90E8\u5C4B\u7740_tex"
-    100918: "\u982D_tex"
+    100882: Camera001
+    100884: Camera001.Target
+    100886: //RootNode
+    100888: Spot001
+    100890: Spot001.Target
+    100892: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    100894: "\u30D1\u30F3\u30C0"
+    100896: "\u30D1\u30F3\u30C002"
+    100898: "\u30DC\u30BF\u30F3_tex"
+    100900: "\u30E1\u30AC\u30CD_tex"
+    100902: "\u30EA\u30DC\u30F3_tex"
+    100904: "\u4E09\u3064\u7DE8\u307F_tex"
+    100906: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    100908: "\u624B_tex"
+    100910: "\u6905\u5B50\uFF3F\u5EA7"
+    100912: "\u6905\u5B50\uFF3F\u811A"
+    100914: "\u6B6F\u3000\u4E0A_tex"
+    100916: "\u6B6F\u3000\u4E0B_tex"
+    100918: "\u77B302_tex"
+    100920: "\u77B3_tex"
+    100922: "\u895F\u8DB3_tex"
+    100924: "\u90E8\u5C4B\u7740_tex"
+    100926: "\u982D_tex"
     400000: 01_tex_phy
     400002: 01_tex_phy 1
     400004: 03_tex_phy
@@ -904,57 +908,78 @@ ModelImporter:
     400876: Bone262
     400878: Bone263
     400880: Bone264
-    400882: //RootNode
-    400884: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    400886: "\u30D1\u30F3\u30C0"
-    400888: "\u30D1\u30F3\u30C002"
-    400890: "\u30DC\u30BF\u30F3_tex"
-    400892: "\u30E1\u30AC\u30CD_tex"
-    400894: "\u30EA\u30DC\u30F3_tex"
-    400896: "\u4E09\u3064\u7DE8\u307F_tex"
-    400898: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    400900: "\u624B_tex"
-    400902: "\u6905\u5B50\uFF3F\u5EA7"
-    400904: "\u6905\u5B50\uFF3F\u811A"
-    400906: "\u6B6F\u3000\u4E0A_tex"
-    400908: "\u6B6F\u3000\u4E0B_tex"
-    400910: "\u77B302_tex"
-    400912: "\u77B3_tex"
-    400914: "\u895F\u8DB3_tex"
-    400916: "\u90E8\u5C4B\u7740_tex"
-    400918: "\u982D_tex"
-    2100000: face_tex
-    2100002: rw_tex
-    2100004: eye_tex
+    400882: Camera001
+    400884: Camera001.Target
+    400886: //RootNode
+    400888: Spot001
+    400890: Spot001.Target
+    400892: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    400894: "\u30D1\u30F3\u30C0"
+    400896: "\u30D1\u30F3\u30C002"
+    400898: "\u30DC\u30BF\u30F3_tex"
+    400900: "\u30E1\u30AC\u30CD_tex"
+    400902: "\u30EA\u30DC\u30F3_tex"
+    400904: "\u4E09\u3064\u7DE8\u307F_tex"
+    400906: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    400908: "\u624B_tex"
+    400910: "\u6905\u5B50\uFF3F\u5EA7"
+    400912: "\u6905\u5B50\uFF3F\u811A"
+    400914: "\u6B6F\u3000\u4E0A_tex"
+    400916: "\u6B6F\u3000\u4E0B_tex"
+    400918: "\u77B302_tex"
+    400920: "\u77B3_tex"
+    400922: "\u895F\u8DB3_tex"
+    400924: "\u90E8\u5C4B\u7740_tex"
+    400926: "\u982D_tex"
+    2000000: Camera001
+    2100000: face
+    2100002: rw
+    2100004: 21 - Default
     2100006: 'Material #197'
-    2100008: megane_tex
-    2100010: hear_tex
+    2100008: 'Material #879'
+    2100010: 'Material #28'
     2100012: "\u6905\u5B50\uFF3F\u5EA7"
     2100014: "\u6905\u5B50\uFF3F\u811A"
-    2300000: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    2300002: "\u30D1\u30F3\u30C0"
-    2300004: "\u30D1\u30F3\u30C002"
-    2300006: "\u30E1\u30AC\u30CD_tex"
-    2300008: "\u30EA\u30DC\u30F3_tex"
-    2300010: "\u4E09\u3064\u7DE8\u307F_tex"
-    2300012: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    2300014: "\u6905\u5B50\uFF3F\u5EA7"
-    2300016: "\u6905\u5B50\uFF3F\u811A"
-    2300018: "\u77B302_tex"
-    2300020: "\u77B3_tex"
-    2300022: "\u895F\u8DB3_tex"
-    3300000: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
-    3300002: "\u30D1\u30F3\u30C0"
-    3300004: "\u30D1\u30F3\u30C002"
-    3300006: "\u30E1\u30AC\u30CD_tex"
-    3300008: "\u30EA\u30DC\u30F3_tex"
-    3300010: "\u4E09\u3064\u7DE8\u307F_tex"
-    3300012: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
-    3300014: "\u6905\u5B50\uFF3F\u5EA7"
-    3300016: "\u6905\u5B50\uFF3F\u811A"
-    3300018: "\u77B302_tex"
-    3300020: "\u77B3_tex"
-    3300022: "\u895F\u8DB3_tex"
+    2300000: 10_tex_phy
+    2300002: 19_tex_phy
+    2300004: 34_tex_phy
+    2300006: 35_tex_phy
+    2300008: 36_tex_phy
+    2300010: 37_tex_phy
+    2300012: 39_tex_phy
+    2300014: 40_tex_phy
+    2300016: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    2300018: "\u30D1\u30F3\u30C0"
+    2300020: "\u30D1\u30F3\u30C002"
+    2300022: "\u30E1\u30AC\u30CD_tex"
+    2300024: "\u30EA\u30DC\u30F3_tex"
+    2300026: "\u4E09\u3064\u7DE8\u307F_tex"
+    2300028: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    2300030: "\u6905\u5B50\uFF3F\u5EA7"
+    2300032: "\u6905\u5B50\uFF3F\u811A"
+    2300034: "\u77B302_tex"
+    2300036: "\u77B3_tex"
+    2300038: "\u895F\u8DB3_tex"
+    3300000: 10_tex_phy
+    3300002: 19_tex_phy
+    3300004: 34_tex_phy
+    3300006: 35_tex_phy
+    3300008: 36_tex_phy
+    3300010: 37_tex_phy
+    3300012: 39_tex_phy
+    3300014: 40_tex_phy
+    3300016: "\u30A2\u30A4\u30DE\u30B9\u30AF_tex"
+    3300018: "\u30D1\u30F3\u30C0"
+    3300020: "\u30D1\u30F3\u30C002"
+    3300022: "\u30E1\u30AC\u30CD_tex"
+    3300024: "\u30EA\u30DC\u30F3_tex"
+    3300026: "\u4E09\u3064\u7DE8\u307F_tex"
+    3300028: "\u52D5\u304B\u306A\u3044\u9AEA_tex"
+    3300030: "\u6905\u5B50\uFF3F\u5EA7"
+    3300032: "\u6905\u5B50\uFF3F\u811A"
+    3300034: "\u77B302_tex"
+    3300036: "\u77B3_tex"
+    3300038: "\u895F\u8DB3_tex"
     4300000: "\u982D_tex"
     4300002: "\u90E8\u5C4B\u7740_tex"
     4300004: "\u624B_tex"
@@ -1022,8 +1047,9 @@ ModelImporter:
     4300128: 46_tex_phy
     4300130: "\u6905\u5B50\uFF3F\u5EA7"
     4300132: "\u6905\u5B50\uFF3F\u811A"
-    7400000: QuestionA
+    7400000: Take 001
     9500000: //RootNode
+    10800000: Spot001
     13700000: 01_tex_phy
     13700002: 01_tex_phy 1
     13700004: 03_tex_phy
@@ -1033,53 +1059,106 @@ ModelImporter:
     13700012: 07_tex_phy
     13700014: 08_tex_phy
     13700016: 09_tex_phy
-    13700018: 10_tex_phy
-    13700020: 11_tex_phy
-    13700022: 12_tex_phy
-    13700024: 13_tex_phy
-    13700026: 14_tex_phy
-    13700028: 15_tex_phy
-    13700030: 16_tex_phy
-    13700032: 17_tex_phy
-    13700034: 18_tex_phy
-    13700036: 19_tex_phy
-    13700038: 20_tex_phy
-    13700040: 21_tex_phy
-    13700042: 22_tex_phy
-    13700044: 23_tex_phy
-    13700046: 24_tex_phy
-    13700048: 25_tex_phy
-    13700050: 26_tex_phy
-    13700052: 27_tex_phy
-    13700054: 28_tex_phy
-    13700056: 29_tex_phy
-    13700058: 30_tex_phy
-    13700060: 31_tex_phy
-    13700062: 32_tex_phy
-    13700064: 33_tex_phy
-    13700066: 34_tex_phy
-    13700068: 35_tex_phy
-    13700070: 36_tex_phy
-    13700072: 37_tex_phy
-    13700074: 38_tex_phy
-    13700076: 39_tex_phy
-    13700078: 40_tex_phy
-    13700080: 41_tex_phy
-    13700082: 42_tex_phy
-    13700084: 43_tex_phy
-    13700086: 44_tex_phy
-    13700088: 45_tex_phy
-    13700090: 46_tex_phy
-    13700092: 47_tex_phy
-    13700094: 48_tex_phy
-    13700096: 49_tex_phy
-    13700098: "\u30DC\u30BF\u30F3_tex"
-    13700100: "\u624B_tex"
-    13700102: "\u6B6F\u3000\u4E0A_tex"
-    13700104: "\u6B6F\u3000\u4E0B_tex"
-    13700106: "\u90E8\u5C4B\u7740_tex"
-    13700108: "\u982D_tex"
-  externalObjects: {}
+    13700018: 11_tex_phy
+    13700020: 12_tex_phy
+    13700022: 13_tex_phy
+    13700024: 14_tex_phy
+    13700026: 15_tex_phy
+    13700028: 16_tex_phy
+    13700030: 17_tex_phy
+    13700032: 18_tex_phy
+    13700034: 20_tex_phy
+    13700036: 21_tex_phy
+    13700038: 22_tex_phy
+    13700040: 23_tex_phy
+    13700042: 24_tex_phy
+    13700044: 25_tex_phy
+    13700046: 26_tex_phy
+    13700048: 27_tex_phy
+    13700050: 28_tex_phy
+    13700052: 29_tex_phy
+    13700054: 30_tex_phy
+    13700056: 31_tex_phy
+    13700058: 32_tex_phy
+    13700060: 33_tex_phy
+    13700062: 38_tex_phy
+    13700064: 41_tex_phy
+    13700066: 42_tex_phy
+    13700068: 43_tex_phy
+    13700070: 44_tex_phy
+    13700072: 45_tex_phy
+    13700074: 46_tex_phy
+    13700076: 47_tex_phy
+    13700078: 48_tex_phy
+    13700080: 49_tex_phy
+    13700082: "\u30DC\u30BF\u30F3_tex"
+    13700084: "\u624B_tex"
+    13700086: "\u6B6F\u3000\u4E0A_tex"
+    13700088: "\u6B6F\u3000\u4E0B_tex"
+    13700090: "\u90E8\u5C4B\u7740_tex"
+    13700092: "\u982D_tex"
+    6000828045688606266: Camera001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: ce2bbc7f563b30044a8de54f7aa9dfa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #197'
+    second: {fileID: 2100000, guid: 7c75570563ea252469b735cd31b4179e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #28'
+    second: {fileID: 2100000, guid: 09f6976746ae4d94e9808ef61da2cc8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #879'
+    second: {fileID: 2100000, guid: 8b9d94c1a3235b64c9b2cc8bf0e64912, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: face
+    second: {fileID: 2100000, guid: 625b81e0aa689cf4dae11bfb741cebda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rw
+    second: {fileID: 2100000, guid: 7e034458db3e56f4fa7c2387154f0922, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6905\u5B50\uFF3F\u5EA7"
+    second: {fileID: 2100000, guid: 307534653c683d3498a24ddb689218ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6905\u5B50\uFF3F\u811A"
+    second: {fileID: 2100000, guid: fde3a6af2d0c5fe46bd7f696c3ccaabd, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ran_eye_tex
+    second: {fileID: 2800000, guid: 7f1dd62c0e5709642a85938ae0da48fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ran_face_tex
+    second: {fileID: 2800000, guid: 59984baf494629145b745c7b96966d06, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ran_hear_tex
+    second: {fileID: 2800000, guid: 25d3198a4088f2f4dbb864fc79923b47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ran_roomwear_tex
+    second: {fileID: 2800000, guid: 7a0df9d165dd4514084ef7702744e763, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -1106,49 +1185,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: QuestionA
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 290
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events:
-      - time: 0.04416404
-        functionName: PlayVoiceQA
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.9659443
-        functionName: Choise1
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 1
-        messageOptions: 0
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
