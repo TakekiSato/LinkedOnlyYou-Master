@@ -8,7 +8,6 @@ public class ChoiseManager : MonoBehaviour
     [SerializeField]
     Image choiseCircle;
 
-    [SerializeField]
     Camera camera;
 
     Vector3 pos;
@@ -22,6 +21,38 @@ public class ChoiseManager : MonoBehaviour
     bool outOfCircle;
     public float nowCountTime;
 
+    string[] animeNames = 
+    {
+        "QuestionA",
+        "Reply_a",
+        "Reply_i",
+        "QuestionB",
+        "Reply_u",
+        "Reply_e",
+        "Common2",
+        "ED1",
+        "ED2",
+        "Common3"
+    };
+
+    enum AnimeName
+    {
+        QuestionA,
+        Reply_a,
+        Reply_i,
+        QuestionB,
+        Reply_u,
+        Reply_e,
+        Common2,
+        ED1,
+        ED2,
+        Common3
+    }
+
+    [SerializeField]
+    AnimeName NextPlayAnime;
+    GameObject model;
+
     public void Init(int _num, TextEvent _manager)
     {
         num = _num;
@@ -33,10 +64,9 @@ public class ChoiseManager : MonoBehaviour
         pos = transform.localPosition;
         mPosCorrection = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0);
         outOfCircle = true;
-        //var parentobj = GameObject.Find("ParentObject");
-        ////大神:シーンの親を作ったのでここにパブリックでシリアライズしたりすれば何でも取れる
-        //var parent = parentobj.GetComponent<ParentObject>();
-        //camera = parent.mainCamera;
+        
+        camera = GameObject.Find("[CameraRig]").GetComponentInChildren<Camera>();
+        model = GameObject.Find("KaoruModel");
     }
 
     void Update()
@@ -58,8 +88,16 @@ public class ChoiseManager : MonoBehaviour
             nowCountTime -= Time.deltaTime;
             if (nowCountTime <= 0.0f)
             {
-                // 選択された時に後々実行される処理がここ
-
+                // 次のアニメーションを再生
+                model.GetComponent<Animator>().Play(animeNames[(int)NextPlayAnime]);
+                if(gameObject.transform.parent.gameObject.name != "Canvas")
+                {
+                    Destroy(gameObject.transform.parent.gameObject);
+                }
+                else
+                {
+                    Destroy(gameObject);
+                }
             }
         }
         else if (!outOfCircle)
