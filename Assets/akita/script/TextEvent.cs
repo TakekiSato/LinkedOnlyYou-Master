@@ -30,10 +30,10 @@ public class TextEvent : MonoBehaviour
     const float fontSize = 40.0f;
     const float betweenLines = 0.5f;
     const float correByFont = 0.05f;
-    const float noChoiceWaitTime = 2.0f;
+    const float noChoiceWaitTime = 1.5f;
 
     //時田
-    float unkoTime = 0.0f;
+    float voiceDelayTime = 0.0f;
     bool isPlaying = false;
 
     string csvFileName;
@@ -180,7 +180,7 @@ public class TextEvent : MonoBehaviour
     {
         ChoiseController cc;
 
-        yield return new WaitForSeconds(unkoTime);
+        yield return new WaitForSeconds(voiceDelayTime + 0.5f);
 
         if (_startNum == 1)
         {
@@ -233,14 +233,14 @@ public class TextEvent : MonoBehaviour
     IEnumerator IntervalForNextText()
     {
         //Debug.LogError("unko entry");
-        yield return new WaitForSeconds(unkoTime);
+        yield return new WaitForSeconds(voiceDelayTime + 0.5f);
         UpdateTexts(false);
         yield break;
     }
 
     IEnumerator TransitionNextScene(string _sceneName)
     {
-        yield return new WaitForSeconds(unkoTime);
+        yield return new WaitForSeconds(voiceDelayTime + 0.5f);
         Main.instance.GoNextStr(_sceneName);
         //SceneManager.LoadScene(_sceneName);
         yield break;
@@ -253,11 +253,11 @@ public class TextEvent : MonoBehaviour
         AudioClip voice = Resources.Load<AudioClip>("voice/" + str + '/' + soundCount);
         if (voice != null)
         {
-            unkoTime = voice.length;
+            voiceDelayTime = voice.length;
         }
         else
         {
-            unkoTime = noChoiceWaitTime;
+            voiceDelayTime = noChoiceWaitTime;
         }
         Debug.Log("voice/" + str + '/' + soundCount);
         ++soundCount;
