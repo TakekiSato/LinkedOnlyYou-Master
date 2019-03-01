@@ -60,7 +60,7 @@ public class Main : MonoBehaviour
     }
 
     [SerializeField] GameObject[] sceneManagers = new GameObject[5];
-    [HideInInspector] public string select;
+    [HideInInspector] public int select;
 
     void Start()
     {
