@@ -1,0 +1,4 @@
+icon/icon_ran.png,,,,,,
+"漫画を読むこと！\n
+前はよくお姉ちゃんに借りて読んでたんだ～\n
+キミは漫画好き？",私も好きです！,text_data/Ran_D_1.csv,choice/choice_maru.png,あんまり読まないです……,text_data/Ran_D_2.csv,choice/choice_batsu.png

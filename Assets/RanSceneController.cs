@@ -7,11 +7,11 @@ public class RanSceneController : MonoBehaviour, ISceneManager
     public void Initialize()
     {
         Debug.Log("RanScene_Initialize");
-        TransScene();
+        //ansScene();
     }
 
     public void TransScene()
     {
-        Main.instance.GoNext((int)SceneName.TitleScene);
+        //Main.instance.GoNext((int)SceneName.TitleScene);
     }
 }

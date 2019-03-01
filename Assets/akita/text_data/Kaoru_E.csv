@@ -1,4 +1,7 @@
-icon/icon_kaoru.png,,,,,,
-そうだなー,,,,,,
-あんたみたいに頑張れる人かな,,,,,,
-って、そういう話で合ってるか？,合ってます！,text_data/Kaoru_B_1.csv,choice/choice_maru.png,うーん、そういうことじゃないですね……,text_data/Kaoru_B_2.csv,choice/choice_batsu.png
+icon/icon_kaoru.png,,,
+"ばあちゃんとメンバーの二人だな！\n
+あとはゲームとかマンガ！",何だか香くんらしいですね,,choice/choice_maru.png
+"そうなのか？\n
+よく分かんないけど、ありがとな！",,,
+"じゃ、そろそろ通話するか\n
+用意するから、ちょっと待っててー",,2,

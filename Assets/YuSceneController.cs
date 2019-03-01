@@ -12,6 +12,6 @@ public class YuSceneController : MonoBehaviour, ISceneManager
 
     public void TransScene()
     {
-        Main.instance.GoNext((int)SceneName.TitleScene);
+        //Main.instance.GoNext((int)SceneName.TitleScene);
     }
 }
