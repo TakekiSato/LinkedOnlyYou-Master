@@ -1,5 +1,3 @@
 icon/icon_ran.png,,,,,,,,,
-"やっぱりキミって可愛いねっ！\n
-頑張り屋さんは好きだよ！",,,,,,,,,
-"そうだ！\n
-せっかくだから、僕に聞きたいことある？",趣味を教えてほしい！,text_data/Ran_A.csv,choice/choice_syumi.png,好きなものを教えてほしいな,text_data/Ran_B.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すの？,text_data/Ran_C.csv,choice/choice_member.png
+やっぱりキミって可愛いねっ！\n頑張り屋さんは好きだよ！,,,,,,,,,
+そうだ！\nせっかくだから、僕に聞きたいことある？,趣味を教えてほしい！,text_data/Ran_A.csv,choice/choice_syumi.png,好きなものを教えてほしいな,text_data/Ran_B.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すの？,text_data/Ran_C.csv,choice/choice_member.png

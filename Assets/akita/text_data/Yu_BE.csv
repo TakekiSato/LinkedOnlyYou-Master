@@ -1,7 +1,4 @@
 icon/icon_yu.png,,,,,,
-"メンバーの二人だな\n
-面と向かって言うのは、気恥ずかしいがな",悠くんって、メンバー想いなんですね,,choice/choice_maru.png,,,
-"て、照れるようなことは言わないでくれ\n
-でも、たしかにあいつらは大切な仲間だからな",,,,,,
-"ところで……\n
-さっきから思ってたんだが、緊張してんのか？",は、はい……,text_data/Yu_B.csv,choice/choice_maru.png,そんなことはないんですが……,text_data/Yu_E.csv,choice/choice_batsu.png
+メンバーの二人だな\n面と向かって言うのは、気恥ずかしいがな,悠くんって、メンバー想いなんですね,,choice/choice_maru.png,,,
+て、照れるようなことは言わないでくれ\nでも、たしかにあいつらは大切な仲間だからな,,,,,,
+ところで……\nさっきから思ってたんだが、緊張してんのか？,は、はい……,text_data/Yu_B.csv,choice/choice_maru.png,そんなことはないんですが……,text_data/Yu_E.csv,choice/choice_batsu.png

@@ -1,5 +1,3 @@
 icon/icon_kaoru.png,,,,,,
-"オレに会いに来てくれたのか！\n
-今日は二人の時間を楽しもうな！",はい、よろしくお願いします！,,choice/choice_maru.png,,,
-"そんな緊張することないって\n
-友達くらいに接してくれていいからさ",わ、分かった…よ？,text_data/Kaoru_ABC.csv,choice/choice_maru.png,さ、さすがに緊張します……,text_data/Kaoru_DEF.csv,choice/choice_batsu.png
+オレに会いに来てくれたのか！\n今日は二人の時間を楽しもうな！,はい、よろしくお願いします！,,choice/choice_maru.png,,,
+そんな緊張することないって\n友達くらいに接してくれていいからさ,わ、分かった…よ？,text_data/Kaoru_ABC.csv,choice/choice_maru.png,さ、さすがに緊張します……,text_data/Kaoru_DEF.csv,choice/choice_batsu.png
