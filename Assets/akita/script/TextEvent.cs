@@ -221,6 +221,7 @@ public class TextEvent : MonoBehaviour
         yield return new WaitForSeconds(voiceDelayTime + 0.5f);
         
         Main.instance.select = Select_Branch(csvFileName);
+        Debug.Log(Main.instance.select);
         Main.instance.GoNextStr(_sceneName);
         Debug.Log(csvFileName);
         yield break;
