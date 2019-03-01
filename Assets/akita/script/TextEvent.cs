@@ -67,6 +67,10 @@ public class TextEvent : MonoBehaviour
     {
         SendChoisedText(_num);
 
+        //選択SEここ!!!
+        AudioClip selectSE = Resources.Load<AudioClip>("voice/SelectSE");
+        speaker.PlayOneShot(selectSE);
+
         if (!ctd.GetIsJump())
         {
             UpdateTexts(false);
