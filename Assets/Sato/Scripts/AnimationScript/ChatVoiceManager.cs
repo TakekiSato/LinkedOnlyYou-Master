@@ -14,7 +14,8 @@ public class ChatVoiceManager : MonoBehaviour
 
     public enum VOICE_LIST
     {
-
+        これから
+            , ああああ
     }
 
     void Awake()

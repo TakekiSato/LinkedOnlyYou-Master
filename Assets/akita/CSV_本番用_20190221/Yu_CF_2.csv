@@ -1,0 +1,5 @@
+icon/icon_yu.png,,,,,,
+"三人の中じゃ、蘭が一番真面目で努力家だよ\n
+ただ、努力を人にはあまり見せたがらないからな",,,,,,
+"ところで……\n
+さっきから思ってたんだが、緊張してんのか？",は、はい……,text_data/Yu_C.csv,choice/choice_maru.png,そんなことはないんですが……,text_data/Yu_F.csv,choice/choice_batsu.png

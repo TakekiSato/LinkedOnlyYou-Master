@@ -1,0 +1,5 @@
+icon/icon_yu.png,,,,,,
+"趣味か……\n
+筋トレ、かな\n
+体を動かすのは好きだな\n
+お前は運動って好きか？",好きです！,text_data/Yu_AD_1.csv,choice/choice_maru.png,運動はあんまり……,text_data/Yu_AD_2.csv,choice/choice_batsu.png

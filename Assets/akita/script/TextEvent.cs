@@ -32,9 +32,16 @@ public class TextEvent : MonoBehaviour
     const float correByFont = 0.05f;
     const float noChoiceWaitTime = 2.0f;
 
+    string csvFileName;
+    int soundCount;
+    AudioSource speaker;
+
     void Start()
     {
-        ExcelData ed = new ExcelData(Application.dataPath + "/akita/text_data/Staff.csv", true);
+        csvFileName = "text_data/Staff.csv";
+        soundCount = 0;
+
+        ExcelData ed = new ExcelData(Application.dataPath + "/akita/" + csvFileName, true);
         textBoxs = new Queue<GameObject>();
         choiseBoxes = new GameObject[maxChoiseCount];
         ctd = new CharaTextData(ed);
@@ -46,6 +53,8 @@ public class TextEvent : MonoBehaviour
         choiseBoxInitPosSide = new Vector3[2];
         choiseBoxInitPosSide[0] = new Vector3(-7, -7, 10);
         choiseBoxInitPosSide[1] = new Vector3(+7, -7, 10);
+
+        speaker = gameObject.AddComponent<AudioSource>();
 
         UpdateTexts(true);
     }
@@ -63,7 +72,9 @@ public class TextEvent : MonoBehaviour
         string extension = MyFunctions.GetExtension(ctd.GetJump(_num));
         if (extension == "csv")
         {
-            ExcelData ed = new ExcelData(Application.dataPath + "/akita/" + ctd.GetJump(_num), true);
+            csvFileName = ctd.GetJump(_num);
+            soundCount = 0;
+            ExcelData ed = new ExcelData(Application.dataPath + "/akita/" + csvFileName, true);
             ctd = new CharaTextData(ed);
             UpdateTexts(true);
         }
@@ -110,7 +121,7 @@ public class TextEvent : MonoBehaviour
         tc.ChangeIcon(ctd.GetIcon());
         EnterQueue(obj);
 
-        SoundedPartnerVoice(ctd.GetQuestion());
+        SoundedPartnerVoice();
 
         for (int i = 0; i < maxChoiseCount; ++i)
         {
@@ -189,13 +200,20 @@ public class TextEvent : MonoBehaviour
     IEnumerator TransitionNextScene(string _sceneName)
     {
         yield return new WaitForSeconds(noChoiceWaitTime);
-        SceneManager.LoadScene(_sceneName);
+        Main.instance.GoNextStr(_sceneName);
+        //SceneManager.LoadScene(_sceneName);
         yield break;
     }
 
-    void SoundedPartnerVoice(string _str)
+    void SoundedPartnerVoice()
     {
         // ここに音声再生を追加？
-
+        string str = MyFunctions.GetOnlyFileName(csvFileName);
+        AudioClip voice = Resources.Load<AudioClip>("voice/" + str + '/' + soundCount);
+        Debug.Log("voice/" + str + '/' + soundCount);
+        ++soundCount;
+        if (voice == null) return;
+        Debug.Log("FFFFFFFFFFF");
+        speaker.PlayOneShot(voice);
     }
 }

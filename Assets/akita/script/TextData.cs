@@ -199,4 +199,14 @@ class MyFunctions
         if (dot < 0) return _str;
         return _str.Substring(0, dot);
     }
+
+    public static string GetOnlyFileName(string _str)
+    {
+        int dot = _str.LastIndexOf('.');
+        if (dot >= 0) _str = _str.Substring(0, dot);
+        int srash = _str.LastIndexOf('/');
+        if (srash >= 0) _str = _str.Substring(srash + 1);
+
+        return _str;
+    }
 }

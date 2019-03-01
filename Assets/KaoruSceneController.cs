@@ -7,7 +7,7 @@ public class KaoruSceneController : MonoBehaviour, ISceneManager
     public void Initialize()
     {
         Debug.Log("KaoruScene_Initialize");
-        TransScene();
+        //TransScene();
     }
 
     public void TransScene()
