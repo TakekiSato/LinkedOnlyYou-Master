@@ -219,8 +219,9 @@ public class TextEvent : MonoBehaviour
     IEnumerator TransitionNextScene(string _sceneName)
     {
         yield return new WaitForSeconds(voiceDelayTime + 0.5f);
+        
+        Main.instance.select = Select_Branch(csvFileName);
         Main.instance.GoNextStr(_sceneName);
-        Main.instance.select = csvFileName;
         Debug.Log(csvFileName);
         yield break;
     }
@@ -243,5 +244,51 @@ public class TextEvent : MonoBehaviour
         if (voice == null) return;
         Debug.Log("FFFFFFFFFFF");
         speaker.PlayOneShot(voice);
+    }
+
+    int Select_Branch(string fileName)
+    {
+        //text_data/Kaoru_A_1.csv
+        Debug.Log("名前：" + fileName + "：");
+        if (   fileName == "text_data/Kaoru_A_1.csv"
+            || fileName == "text_data/Kaoru_A_2.csv"
+            || fileName == "text_data/Kaoru_C_1.csv"
+            || fileName == "text_data/Kaoru_C_2.csv"
+            || fileName == "text_data/Kaoru_D_1.csv"
+            || fileName == "text_data/Kaoru_D_2.csv"
+            || fileName == "text_data/Yu_A.csv"
+            || fileName == "text_data/Yu_C.csv"
+            || fileName == "text_data/Yu_D.csv"
+            || fileName == "text_data/Ran_A_1.csv"
+            || fileName == "text_data/Ran_A_2.csv"
+            || fileName == "text_data/Ran_C_1.csv"
+            || fileName == "text_data/Ran_C_2.csv"
+            || fileName == "text_data/Ran_D_1.csv"
+            || fileName == "text_data/Ran_D_2.csv"
+            )
+        {
+            return 0;
+        }
+        else if (fileName == "text_data/Kaoru_B.csv"
+            || fileName == "text_data/Kaoru_E.csv"
+            || fileName == "text_data/Kaoru_F_1.csv"
+            || fileName == "text_data/Kaoru_F_2.csv"
+            || fileName == "text_data/Yu_B.csv"
+            || fileName == "text_data/Yu_E.csv"
+            || fileName == "text_data/Yu_F.csv"
+            || fileName == "text_data/Ran_B_1.csv"
+            || fileName == "text_data/Ran_B_2.csv"
+            || fileName == "text_data/Ran_E_1.csv"
+            || fileName == "text_data/Ran_E_2.csv"
+            || fileName == "text_data/Ran_F_1.csv"
+            || fileName == "text_data/Ran_F_2.csv"
+            )
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
     }
 }
