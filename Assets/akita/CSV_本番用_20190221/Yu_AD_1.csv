@@ -1,5 +1,0 @@
-icon/icon_yu.png,,,,,,
-"趣味が合いそうだな\n
-今度、そういうイベントをやってもいいかもな……",,,,,,
-"ところで……\n
-さっきから思ってたんだが、緊張してんのか？",は、はい……,text_data/Yu_A.csv,choice/choice_maru.png,そんなことはないんですが……,text_data/Yu_D.csv,choice/choice_batsu.png

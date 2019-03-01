@@ -1,7 +1,0 @@
-icon/icon_kaoru.png,,,,,,,,,
-"楽しんでくれれば、それだけでオレは嬉しいからさ\n
-気にすんなよ！",はい、ありがとうございます！,,choice/choice_maru.png,,,,,,
-"あんたって真面目なんだな\n
-なんか守ってあげたくなる！",あ、ありがとうございます,,choice/choice_yorokobi.png,ま、守るなんて……,,choice/choice_tere.png,,,
-"あ、そうだ\n
-せっかくだから、オレに聞きたいこととかある？",趣味を教えてください！,text_data/Kaoru_D.csv,choice/choice_syumi.png,好きなものを教えてほしいです,text_data/Kaoru_E.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すんですか？,text_data/Kaoru_F.csv,choice/choice_member.png

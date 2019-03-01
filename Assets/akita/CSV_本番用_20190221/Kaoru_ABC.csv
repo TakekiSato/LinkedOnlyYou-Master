@@ -1,9 +1,0 @@
-icon/icon_kaoru.png,,,,,,,,,
-"そうそう、そんな感じ\n
-やっぱ、こっちのほうが楽じゃん！\n
-あんたもそう思うだろ？",う、うん！,,choice/choice_maru.png,,,,,,
-なんか、頑張ってるみたいで可愛いな！,あ、ありがとう…？,,choice/choice_yorokobi.png,ちょっと恥ずかしい、かな,,choice/choice_tere.png,,,
-"オレ、頑張ってるやつは好きだな\n
-見てるこっちも頑張ろ！って思えるじゃん？",,,,,,,,,
-"あ、そうだ\n
-せっかくだから、オレに聞きたいこととかある？",趣味を教えてほしい！,text_data/Kaoru_A.csv,choice/choice_syumi.png,好きなものを教えてほしいな,text_data/Kaoru_B.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すの？,text_data/Kaoru_C.csv,choice/choice_member.png

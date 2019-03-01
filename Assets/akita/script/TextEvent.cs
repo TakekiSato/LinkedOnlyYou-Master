@@ -32,6 +32,10 @@ public class TextEvent : MonoBehaviour
     const float correByFont = 0.05f;
     const float noChoiceWaitTime = 2.0f;
 
+    //時田
+    float unkoTime = 0.0f;
+    bool isPlaying = false;
+
     string csvFileName;
     int soundCount;
     AudioSource speaker;
@@ -110,7 +114,7 @@ public class TextEvent : MonoBehaviour
 
         GameObject obj;
         TextChanger tc;
-        ChoiseController cc;
+        //ChoiseController cc;
 
         obj = Instantiate(textBoxLPrefab);
         obj.transform.parent = canvas.transform;
@@ -142,28 +146,64 @@ public class TextEvent : MonoBehaviour
         }
 
         int startNum = (ctd.GetReplyCount() != 2) ? 1 : 0;
-        if (startNum == 1)
+
+        StartCoroutine(BoxInstantiate(startNum, tc));
+        //if (startNum == 1)
+        //{
+        //    choiseBoxes[0] = Instantiate(choiseBoxPrefab);
+        //    choiseBoxes[0].transform.parent = canvas.transform;
+        //    choiseBoxes[0].transform.localPosition = choiseBoxInitPosCenter;
+
+        //    tc = choiseBoxes[0].GetComponent<TextChanger>();
+        //    tc.ChangeIcon(ctd.GetSprite(0));
+        //    tc.ChangeText("");
+
+        //    cc = choiseBoxes[0].GetComponent<ChoiseController>();
+        //    cc.Init(0, this);
+        //}
+        //for (int i = startNum; i < ctd.GetReplyCount(); ++i)
+        //{
+        //    choiseBoxes[i] = Instantiate(choiseBoxPrefab);
+        //    choiseBoxes[i].transform.parent = canvas.transform;
+        //    choiseBoxes[i].transform.localPosition = choiseBoxInitPosSide[i - startNum];
+
+        //    tc = choiseBoxes[i].GetComponent<TextChanger>();
+        //    tc.ChangeIcon(ctd.GetSprite(i));
+        //    tc.ChangeText("");
+
+        //    cc = choiseBoxes[i].GetComponent<ChoiseController>();
+        //    cc.Init(i, this);
+        //}
+    }
+
+    IEnumerator BoxInstantiate(int _startNum, TextChanger _tc)
+    {
+        ChoiseController cc;
+
+        yield return new WaitForSeconds(unkoTime);
+
+        if (_startNum == 1)
         {
             choiseBoxes[0] = Instantiate(choiseBoxPrefab);
             choiseBoxes[0].transform.parent = canvas.transform;
             choiseBoxes[0].transform.localPosition = choiseBoxInitPosCenter;
 
-            tc = choiseBoxes[0].GetComponent<TextChanger>();
-            tc.ChangeIcon(ctd.GetSprite(0));
-            tc.ChangeText("");
+            _tc = choiseBoxes[0].GetComponent<TextChanger>();
+            _tc.ChangeIcon(ctd.GetSprite(0));
+            _tc.ChangeText("");
 
             cc = choiseBoxes[0].GetComponent<ChoiseController>();
             cc.Init(0, this);
         }
-        for (int i = startNum; i < ctd.GetReplyCount(); ++i)
+        for (int i = _startNum; i < ctd.GetReplyCount(); ++i)
         {
             choiseBoxes[i] = Instantiate(choiseBoxPrefab);
             choiseBoxes[i].transform.parent = canvas.transform;
-            choiseBoxes[i].transform.localPosition = choiseBoxInitPosSide[i - startNum];
+            choiseBoxes[i].transform.localPosition = choiseBoxInitPosSide[i - _startNum];
 
-            tc = choiseBoxes[i].GetComponent<TextChanger>();
-            tc.ChangeIcon(ctd.GetSprite(i));
-            tc.ChangeText("");
+            _tc = choiseBoxes[i].GetComponent<TextChanger>();
+            _tc.ChangeIcon(ctd.GetSprite(i));
+            _tc.ChangeText("");
 
             cc = choiseBoxes[i].GetComponent<ChoiseController>();
             cc.Init(i, this);
@@ -192,14 +232,15 @@ public class TextEvent : MonoBehaviour
 
     IEnumerator IntervalForNextText()
     {
-        yield return new WaitForSeconds(noChoiceWaitTime);
+        //Debug.LogError("unko entry");
+        yield return new WaitForSeconds(unkoTime);
         UpdateTexts(false);
         yield break;
     }
 
     IEnumerator TransitionNextScene(string _sceneName)
     {
-        yield return new WaitForSeconds(noChoiceWaitTime);
+        yield return new WaitForSeconds(unkoTime);
         Main.instance.GoNextStr(_sceneName);
         //SceneManager.LoadScene(_sceneName);
         yield break;
@@ -210,6 +251,14 @@ public class TextEvent : MonoBehaviour
         // ここに音声再生を追加？
         string str = MyFunctions.GetOnlyFileName(csvFileName);
         AudioClip voice = Resources.Load<AudioClip>("voice/" + str + '/' + soundCount);
+        if (voice != null)
+        {
+            unkoTime = voice.length;
+        }
+        else
+        {
+            unkoTime = noChoiceWaitTime;
+        }
         Debug.Log("voice/" + str + '/' + soundCount);
         ++soundCount;
         if (voice == null) return;
