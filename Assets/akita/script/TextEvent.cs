@@ -195,6 +195,7 @@ public class TextEvent : MonoBehaviour
 
     void SoundedPartnerVoice(string _str)
     {
+        // ここに音声再生を追加？
 
     }
 }
