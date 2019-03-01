@@ -53,10 +53,10 @@ public class TextEvent : MonoBehaviour
 
         textBoxLInitPos = new Vector3(-12, 12, 10);
         textBoxRInitPos = new Vector3(+12, 12, 10);
-        choiseBoxInitPosCenter = new Vector3(0, -8, 10);
+        choiseBoxInitPosCenter = new Vector3(0, -10, 10);
         choiseBoxInitPosSide = new Vector3[2];
-        choiseBoxInitPosSide[0] = new Vector3(-7, -7, 10);
-        choiseBoxInitPosSide[1] = new Vector3(+7, -7, 10);
+        choiseBoxInitPosSide[0] = new Vector3(-7, -9, 10);
+        choiseBoxInitPosSide[1] = new Vector3(+7, -9, 10);
 
         speaker = gameObject.AddComponent<AudioSource>();
 
