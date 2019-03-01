@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class YuSceneController : MonoBehaviour, ISceneManager
 {
-    string a;
-
+    public int choiseAorB;
     public void Initialize()
     {
         Debug.Log("YuScene_Initialize");
         //TransScene();
-        a = Main.instance.select;
+        choiseAorB = Main.instance.select;
     }
 
     public void TransScene()

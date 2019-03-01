@@ -69,6 +69,11 @@ public class ChoiseManager : MonoBehaviour
     };
     GameObject model;
 
+    KaoruSceneController kaoruSceneController;
+    YuSceneController yuSceneController;
+    RanSceneController ranSceneController;
+    
+
     public void Init(int _num, TextEvent _manager)
     {
         num = _num;
@@ -83,6 +88,22 @@ public class ChoiseManager : MonoBehaviour
         
         camera = GameObject.Find("[CameraRig]").GetComponentInChildren<Camera>();
         model = GameObject.Find(modelNames[(int)name]);
+
+        if(gameObject.name == "Choise1(Clone)")
+        {
+            if(name == ModelName.Kaoru)
+            {
+                kaoruSceneController = GameObject.Find("Kaoru(Clone)").GetComponent<KaoruSceneController>();
+            }
+            else if(name == ModelName.Yu)
+            {
+                yuSceneController = GameObject.Find("Yu(Clone)").GetComponent<YuSceneController>();
+            }
+            else if(name == ModelName.Ran)
+            {
+                ranSceneController = GameObject.Find("Ran(Clone)").GetComponent<RanSceneController>();
+            }
+        }
     }
 
     void Update()
@@ -105,6 +126,59 @@ public class ChoiseManager : MonoBehaviour
             if (nowCountTime <= 0.0f)
             {
                 // 次のアニメーションを再生
+                // Choise1の時のみやる
+                if(gameObject.name == "Choise1(Clone)")
+                {
+                    // Qustion A or B
+                    if(name == ModelName.Kaoru)
+                    {
+                        if(kaoruSceneController.choiseAorB == 0)
+                        {
+                            // 次に再生するアニメーションの名前を強制的に書き換え
+                            Debug.Log("質問A");
+                            NextPlayAnime = AnimeName.QuestionA;
+                        }
+                        else if(kaoruSceneController.choiseAorB == 1)
+                        {
+                            Debug.Log("質問B");
+                            NextPlayAnime = AnimeName.QuestionB;
+                        }
+                        else
+                        {
+                            Debug.Log("File Name Error!");
+                        }
+                    }
+                    else if(name == ModelName.Yu)
+                    {
+                        if(yuSceneController.choiseAorB == 0)
+                        {
+                            NextPlayAnime = AnimeName.QuestionB;
+                        }
+                        else if(yuSceneController.choiseAorB == 1)
+                        {
+                            NextPlayAnime = AnimeName.QuestionA;
+                        }
+                        else
+                        {
+                            Debug.Log("File Name Error!");
+                        }
+                    }
+                    else if(name == ModelName.Ran)
+                    {
+                        if(ranSceneController.choiseAorB == 0)
+                        {
+                            NextPlayAnime = AnimeName.QuestionB;
+                        }
+                        else if(ranSceneController.choiseAorB == 1)
+                        {
+                            NextPlayAnime = AnimeName.QuestionA;
+                        }
+                        else
+                        {
+                            Debug.Log("File Name Error!");
+                        }
+                    }
+                }
                 model.GetComponent<Animator>().Play(animeNames[(int)NextPlayAnime]);
                 if(gameObject.transform.parent.gameObject.name != "Canvas")
                 {
