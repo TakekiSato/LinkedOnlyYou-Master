@@ -1,3 +1,5 @@
 icon/icon_unit.png,,,,,,,,,
-これから、あなたにはメンバーの一人と\nプライベートな会話を楽しんでいただきます。,,,,,,,,,
-では、さっそくではありますが、\n今回は誰に会いに来てくれたのでしょう？,香くんに会いに来ました！,text_data/Kaoru_start.csv,icon/icon_kaoru.png,悠くんに会いに来ました！,text_data/Yu_start.csv,icon/icon_yu.png,蘭くんに会いに来ました！,text_data/Ran_start.csv,icon/icon_ran.png
+"これから、あなたにはメンバーの一人と\n
+プライベートな会話を楽しんでいただきます。",,,,,,,,,
+"では、さっそくではありますが、\n
+今回は誰に会いに来てくれたのでしょう？",香くんに会いに来ました！,text_data/Kaoru_start.csv,icon/icon_kaoru.png,悠くんに会いに来ました！,text_data/Yu_start.csv,icon/icon_yu.png,蘭くんに会いに来ました！,text_data/Ran_start.csv,icon/icon_ran.png

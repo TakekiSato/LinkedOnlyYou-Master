@@ -1,0 +1,7 @@
+icon/icon_ran.png,,,,,,,,,
+"うん、無理はしなくていいからね\n
+でも、絶対に楽しむこと、いいね？\n
+もちろん、僕もキミが楽しかったって思えるように\n
+頑張るからね！",,,,,,,,,
+"そうだ！\n
+せっかくだから、僕に聞きたいことある？",趣味を教えてください！,text_data/Ran_D.csv,choice/choice_syumi.png,好きなものを教えてほしいです,text_data/Ran_E.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すんですか？,text_data/Ran_F.csv,choice/choice_member.png

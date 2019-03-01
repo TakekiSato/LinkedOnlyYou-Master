@@ -1,0 +1,6 @@
+icon/icon_yu.png,,,,,,
+"そこがあいつの良さ、だからな\n
+たしかに抜けてるところはあるが、本人も努力してる\n
+だから世話も焼きたくなる",,,choice/choice_maru.png,,,
+"ところで……\n
+さっきから思ってたんだが、緊張してんのか？",は、はい……,text_data/Yu_C.csv,choice/choice_maru.png,そんなことはないんですが……,text_data/Yu_F.csv,choice/choice_batsu.png

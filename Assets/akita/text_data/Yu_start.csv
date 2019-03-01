@@ -1,0 +1,7 @@
+icon/icon_yu.png,,,,,,,,,
+"俺を選んでくれたのか\n
+ありがとう\n
+短い時間だが、楽しんでいってくれ",はい、よろしくお願いします！,,choice/choice_maru.png,,,,,,
+"こちらこそ、よろしくな\n
+とはいえ、何の話をしようか……\n
+俺に聞きたいことってあるか？",趣味を教えてください！,text_data/Yu_AD.csv,choice/choice_syumi.png,好きなものを教えてほしいです,text_data/Yu_BE.csv,choice/choice_konomi.png,他のメンバーとは普段、どんなことを話すんですか？,text_data/Yu_CF.csv,choice/choice_member.png
