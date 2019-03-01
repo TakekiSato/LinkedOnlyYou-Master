@@ -89,4 +89,10 @@ public class Main : MonoBehaviour
     {
         SceneManager.LoadScene(_next);
     }
+
+    public void GoNextStr(string _str)
+    {
+        int _next = int.Parse(_str);
+        SceneManager.LoadScene(_next);
+    }
 }
