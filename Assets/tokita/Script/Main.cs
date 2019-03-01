@@ -60,7 +60,7 @@ public class Main : MonoBehaviour
     }
 
     [SerializeField] GameObject[] sceneManagers = new GameObject[5];
-    [HideInInspector] public SelectCharacter select = SelectCharacter.None;
+    [HideInInspector] public string select;
 
     void Start()
     {

@@ -148,32 +148,6 @@ public class TextEvent : MonoBehaviour
         int startNum = (ctd.GetReplyCount() != 2) ? 1 : 0;
 
         StartCoroutine(BoxInstantiate(startNum, tc));
-        //if (startNum == 1)
-        //{
-        //    choiseBoxes[0] = Instantiate(choiseBoxPrefab);
-        //    choiseBoxes[0].transform.parent = canvas.transform;
-        //    choiseBoxes[0].transform.localPosition = choiseBoxInitPosCenter;
-
-        //    tc = choiseBoxes[0].GetComponent<TextChanger>();
-        //    tc.ChangeIcon(ctd.GetSprite(0));
-        //    tc.ChangeText("");
-
-        //    cc = choiseBoxes[0].GetComponent<ChoiseController>();
-        //    cc.Init(0, this);
-        //}
-        //for (int i = startNum; i < ctd.GetReplyCount(); ++i)
-        //{
-        //    choiseBoxes[i] = Instantiate(choiseBoxPrefab);
-        //    choiseBoxes[i].transform.parent = canvas.transform;
-        //    choiseBoxes[i].transform.localPosition = choiseBoxInitPosSide[i - startNum];
-
-        //    tc = choiseBoxes[i].GetComponent<TextChanger>();
-        //    tc.ChangeIcon(ctd.GetSprite(i));
-        //    tc.ChangeText("");
-
-        //    cc = choiseBoxes[i].GetComponent<ChoiseController>();
-        //    cc.Init(i, this);
-        //}
     }
 
     IEnumerator BoxInstantiate(int _startNum, TextChanger _tc)
@@ -242,7 +216,8 @@ public class TextEvent : MonoBehaviour
     {
         yield return new WaitForSeconds(voiceDelayTime + 0.5f);
         Main.instance.GoNextStr(_sceneName);
-        //SceneManager.LoadScene(_sceneName);
+        Main.instance.select = csvFileName;
+        Debug.Log(csvFileName);
         yield break;
     }
 
