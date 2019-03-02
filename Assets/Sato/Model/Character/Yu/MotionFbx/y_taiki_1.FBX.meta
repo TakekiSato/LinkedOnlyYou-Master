@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f0b2925fbf2ed1a4eb5f09becbef6f7d
+guid: e596cd28f22f59149986ca700792d19f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -125,39 +125,35 @@ ModelImporter:
     100238: Bone079
     100240: Bone080
     100242: Bone081
-    100244: Camera001
-    100246: Camera001.Target
-    100248: IK Chain003
-    100250: IK Chain006
-    100252: IK Chain007
-    100254: IK Chain008
-    100256: megane
-    100258: Pencil+ 4 Line Merge Helper001
-    100260: piasu1
-    100262: piasu2
-    100264: Point003
-    100266: Point005
-    100268: Point006
-    100270: Point007
-    100272: Spot001
-    100274: Spot001.Target
-    100276: //RootNode
-    100278: "\u30BD\u30D5\u30A1"
-    100280: "\u6B6F"
-    100282: "\u751A\u5E73_tex"
-    100284: "\u76EE_tex1"
-    100286: "\u76EE_tex2"
-    100288: "\u7D30\u9AEA_tex_phy00"
-    100290: "\u7D30\u9AEA_tex_phy01"
-    100292: "\u7D30\u9AEA_tex_phy02"
-    100294: "\u7D30\u9AEA_tex_phy03"
-    100296: "\u8170\u30EA\u30DC\u30F3_tex"
-    100298: "\u9854_tex"
-    100300: "\u9AEA_tex"
-    100302: "\u9AEA\u4E0A_tex_phy01"
-    100304: "\u9AEA\u4E0A_tex_phy02"
-    100306: "\u9AEA\u4E0A_tex_phy03"
-    100308: "\u9AEA\u4E0A_tex_phy04"
+    100244: IK Chain003
+    100246: IK Chain006
+    100248: IK Chain007
+    100250: IK Chain008
+    100252: megane
+    100254: Pencil+ 4 Line Merge Helper001
+    100256: piasu1
+    100258: piasu2
+    100260: Point003
+    100262: Point005
+    100264: Point006
+    100266: Point007
+    100268: //RootNode
+    100270: "\u30BD\u30D5\u30A1"
+    100272: "\u6B6F"
+    100274: "\u751A\u5E73_tex"
+    100276: "\u76EE_tex1"
+    100278: "\u76EE_tex2"
+    100280: "\u7D30\u9AEA_tex_phy00"
+    100282: "\u7D30\u9AEA_tex_phy01"
+    100284: "\u7D30\u9AEA_tex_phy02"
+    100286: "\u7D30\u9AEA_tex_phy03"
+    100288: "\u8170\u30EA\u30DC\u30F3_tex"
+    100290: "\u9854_tex"
+    100292: "\u9AEA_tex"
+    100294: "\u9AEA\u4E0A_tex_phy01"
+    100296: "\u9AEA\u4E0A_tex_phy02"
+    100298: "\u9AEA\u4E0A_tex_phy03"
+    100300: "\u9AEA\u4E0A_tex_phy04"
     400000: Base Human
     400002: Base HumanHead
     400004: Base HumanLCalf
@@ -280,45 +276,40 @@ ModelImporter:
     400238: Bone079
     400240: Bone080
     400242: Bone081
-    400244: Camera001
-    400246: Camera001.Target
-    400248: IK Chain003
-    400250: IK Chain006
-    400252: IK Chain007
-    400254: IK Chain008
-    400256: megane
-    400258: Pencil+ 4 Line Merge Helper001
-    400260: piasu1
-    400262: piasu2
-    400264: Point003
-    400266: Point005
-    400268: Point006
-    400270: Point007
-    400272: Spot001
-    400274: Spot001.Target
-    400276: //RootNode
-    400278: "\u30BD\u30D5\u30A1"
-    400280: "\u6B6F"
-    400282: "\u751A\u5E73_tex"
-    400284: "\u76EE_tex1"
-    400286: "\u76EE_tex2"
-    400288: "\u7D30\u9AEA_tex_phy00"
-    400290: "\u7D30\u9AEA_tex_phy01"
-    400292: "\u7D30\u9AEA_tex_phy02"
-    400294: "\u7D30\u9AEA_tex_phy03"
-    400296: "\u8170\u30EA\u30DC\u30F3_tex"
-    400298: "\u9854_tex"
-    400300: "\u9AEA_tex"
-    400302: "\u9AEA\u4E0A_tex_phy01"
-    400304: "\u9AEA\u4E0A_tex_phy02"
-    400306: "\u9AEA\u4E0A_tex_phy03"
-    400308: "\u9AEA\u4E0A_tex_phy04"
-    2000000: Camera001
+    400244: IK Chain003
+    400246: IK Chain006
+    400248: IK Chain007
+    400250: IK Chain008
+    400252: megane
+    400254: Pencil+ 4 Line Merge Helper001
+    400256: piasu1
+    400258: piasu2
+    400260: Point003
+    400262: Point005
+    400264: Point006
+    400266: Point007
+    400268: //RootNode
+    400270: "\u30BD\u30D5\u30A1"
+    400272: "\u6B6F"
+    400274: "\u751A\u5E73_tex"
+    400276: "\u76EE_tex1"
+    400278: "\u76EE_tex2"
+    400280: "\u7D30\u9AEA_tex_phy00"
+    400282: "\u7D30\u9AEA_tex_phy01"
+    400284: "\u7D30\u9AEA_tex_phy02"
+    400286: "\u7D30\u9AEA_tex_phy03"
+    400288: "\u8170\u30EA\u30DC\u30F3_tex"
+    400290: "\u9854_tex"
+    400292: "\u9AEA_tex"
+    400294: "\u9AEA\u4E0A_tex_phy01"
+    400296: "\u9AEA\u4E0A_tex_phy02"
+    400298: "\u9AEA\u4E0A_tex_phy03"
+    400300: "\u9AEA\u4E0A_tex_phy04"
     2100000: hair
-    2100002: 'Material #34'
+    2100002: 'Material #3058'
     2100004: eye
-    2100006: 'Material #33'
-    2100008: 'Material #2814'
+    2100006: 'Material #3057'
+    2100008: 'Material #3066'
     2100010: face
     2100012: zinbei
     2100014: ude.asi
@@ -358,9 +349,8 @@ ModelImporter:
     4300032: "\u8170\u30EA\u30DC\u30F3_tex"
     4300034: "\u751A\u5E73_tex"
     4300036: "\u30BD\u30D5\u30A1"
-    7400000: QuestionB
+    7400000: Take 001
     9500000: //RootNode
-    10800000: Spot001
     13700000: "\u6B6F"
     13700002: "\u751A\u5E73_tex"
     13700004: "\u7D30\u9AEA_tex_phy00"
@@ -373,7 +363,6 @@ ModelImporter:
     13700018: "\u9AEA\u4E0A_tex_phy03"
     13700020: "\u9AEA\u4E0A_tex_phy04"
     2186277476908879412: ImportLogs
-    6000828045688606266: Camera001
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -403,17 +392,17 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: QuestionB
+      name: Take 001
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 502
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -425,21 +414,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.029166667
-        functionName: PlayVoiceQB
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.9752322
-        functionName: Choise1
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 3
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
