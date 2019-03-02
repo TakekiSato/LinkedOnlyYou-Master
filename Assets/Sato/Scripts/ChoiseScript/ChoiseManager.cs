@@ -72,6 +72,8 @@ public class ChoiseManager : MonoBehaviour
     KaoruSceneController kaoruSceneController;
     YuSceneController yuSceneController;
     RanSceneController ranSceneController;
+
+    SoundManager soundManager;
     
 
     public void Init(int _num, TextEvent _manager)
@@ -88,6 +90,7 @@ public class ChoiseManager : MonoBehaviour
         
         camera = GameObject.Find("[CameraRig]").GetComponentInChildren<Camera>();
         model = GameObject.Find(modelNames[(int)name]);
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
         if(gameObject.name == "Choise1(Clone)")
         {
@@ -125,6 +128,8 @@ public class ChoiseManager : MonoBehaviour
             nowCountTime -= Time.deltaTime;
             if (nowCountTime <= 0.0f)
             {
+                // SE再生
+                soundManager.PlayVoice(SoundManager.VOICE_LIST.SELECT_SE);
                 // 次のアニメーションを再生
                 // Choise1の時のみやる
                 if(gameObject.name == "Choise1(Clone)")

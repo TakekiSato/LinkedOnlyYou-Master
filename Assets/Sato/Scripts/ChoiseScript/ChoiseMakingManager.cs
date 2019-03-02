@@ -26,7 +26,7 @@ public class ChoiseMakingManager : MonoBehaviour
     {
         new Vector3(0f, 0.6f, 0f),
         new Vector3(0f, 1f, -0.7f),
-        new Vector3(1.5f, 0.8f, 1f)
+        new Vector3(1.3f, 0.9f, 1f)
     };
 
     void Start()

@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 69562907a2085034894ce93f06c21db3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: atama
+    100002: azuki
+    100004: //RootNode
+    100006: Base Human
+    100008: Base HumanHead
+    100010: Base HumanLCalf
+    100012: Base HumanLCollarbone
+    100014: Base HumanLFoot
+    100016: Base HumanLForearm
+    100018: Base HumanLPalm
+    100020: Base HumanLThigh
+    100022: Base HumanLUpperarm
+    100024: "Base HumanL\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    100026: "Base HumanL\u630711"
+    100028: "Base HumanL\u630712"
+    100030: "Base HumanL\u630713"
+    100032: "Base HumanL\u630721"
+    100034: "Base HumanL\u630722"
+    100036: "Base HumanL\u630723"
+    100038: "Base HumanL\u630731"
+    100040: "Base HumanL\u630732"
+    100042: "Base HumanL\u630733"
+    100044: "Base HumanL\u630741"
+    100046: "Base HumanL\u630742"
+    100048: "Base HumanL\u630743"
+    100050: "Base HumanL\u630751"
+    100052: "Base HumanL\u630752"
+    100054: "Base HumanL\u630753"
+    100056: Base HumanNeck1
+    100058: Base HumanNeck2
+    100060: Base HumanPelvis
+    100062: Base HumanRCalf
+    100064: Base HumanRCollarbone
+    100066: Base HumanRFoot
+    100068: Base HumanRForearm
+    100070: Base HumanRibcage
+    100072: Base HumanRPalm
+    100074: Base HumanRThigh
+    100076: Base HumanRUpperarm
+    100078: "Base HumanR\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    100080: "Base HumanR\u630711"
+    100082: "Base HumanR\u630712"
+    100084: "Base HumanR\u630713"
+    100086: "Base HumanR\u630721"
+    100088: "Base HumanR\u630722"
+    100090: "Base HumanR\u630723"
+    100092: "Base HumanR\u630731"
+    100094: "Base HumanR\u630732"
+    100096: "Base HumanR\u630733"
+    100098: "Base HumanR\u630741"
+    100100: "Base HumanR\u630742"
+    100102: "Base HumanR\u630743"
+    100104: "Base HumanR\u630751"
+    100106: "Base HumanR\u630752"
+    100108: "Base HumanR\u630753"
+    100110: Base HumanSpine1
+    100112: Base HumanSpine2
+    100114: Base HumanSpine3
+    100116: Base HumanSpine4
+    100118: Bone001
+    100120: Bone002
+    100122: Bone003
+    100124: Bone004
+    100126: Bone005
+    100128: Bone006
+    100130: Bone007
+    100132: Bone008
+    100134: Bone009
+    100136: Bone010
+    100138: Bone011
+    100140: Bone012
+    100142: Bone013
+    100144: Bone014
+    100146: Bone015
+    100148: Bone016
+    100150: Bone017
+    100152: Bone018
+    100154: Bone019
+    100156: Bone020
+    100158: Bone021
+    100160: Bone022
+    100162: Bone023
+    100164: Bone024
+    100166: Bone025
+    100168: Bone026
+    100170: Bone027
+    100172: Bone028
+    100174: Bone029
+    100176: Bone030
+    100178: Bone031
+    100180: Bone032
+    100182: Bone033
+    100184: Bone034
+    100186: Bone035
+    100188: Bone036
+    100190: Bone037
+    100192: Bone038
+    100194: Bone039
+    100196: Bone040
+    100198: Bone041
+    100200: Bone042
+    100202: kamimi
+    100204: karada
+    100206: kuchi001
+    100208: kuchi002
+    100210: kuchinonaka
+    100212: light001
+    100214: Line001
+    100216: Line007
+    100218: Line008
+    100220: mayuge
+    100222: me001
+    100224: me002
+    100226: me005
+    100228: me006
+    100230: nuno
+    100232: Plane002
+    100234: Plane003
+    100236: Plane004
+    100238: Plane005
+    100240: Plane006
+    100242: Plane007
+    100244: Sphere002
+    100246: Spot001
+    100248: Spot001.Target
+    100250: Spot002
+    100252: Spot002.Target
+    100254: Spot003
+    100256: Spot003.Target
+    400000: atama
+    400002: azuki
+    400004: //RootNode
+    400006: Base Human
+    400008: Base HumanHead
+    400010: Base HumanLCalf
+    400012: Base HumanLCollarbone
+    400014: Base HumanLFoot
+    400016: Base HumanLForearm
+    400018: Base HumanLPalm
+    400020: Base HumanLThigh
+    400022: Base HumanLUpperarm
+    400024: "Base HumanL\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    400026: "Base HumanL\u630711"
+    400028: "Base HumanL\u630712"
+    400030: "Base HumanL\u630713"
+    400032: "Base HumanL\u630721"
+    400034: "Base HumanL\u630722"
+    400036: "Base HumanL\u630723"
+    400038: "Base HumanL\u630731"
+    400040: "Base HumanL\u630732"
+    400042: "Base HumanL\u630733"
+    400044: "Base HumanL\u630741"
+    400046: "Base HumanL\u630742"
+    400048: "Base HumanL\u630743"
+    400050: "Base HumanL\u630751"
+    400052: "Base HumanL\u630752"
+    400054: "Base HumanL\u630753"
+    400056: Base HumanNeck1
+    400058: Base HumanNeck2
+    400060: Base HumanPelvis
+    400062: Base HumanRCalf
+    400064: Base HumanRCollarbone
+    400066: Base HumanRFoot
+    400068: Base HumanRForearm
+    400070: Base HumanRibcage
+    400072: Base HumanRPalm
+    400074: Base HumanRThigh
+    400076: Base HumanRUpperarm
+    400078: "Base HumanR\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0"
+    400080: "Base HumanR\u630711"
+    400082: "Base HumanR\u630712"
+    400084: "Base HumanR\u630713"
+    400086: "Base HumanR\u630721"
+    400088: "Base HumanR\u630722"
+    400090: "Base HumanR\u630723"
+    400092: "Base HumanR\u630731"
+    400094: "Base HumanR\u630732"
+    400096: "Base HumanR\u630733"
+    400098: "Base HumanR\u630741"
+    400100: "Base HumanR\u630742"
+    400102: "Base HumanR\u630743"
+    400104: "Base HumanR\u630751"
+    400106: "Base HumanR\u630752"
+    400108: "Base HumanR\u630753"
+    400110: Base HumanSpine1
+    400112: Base HumanSpine2
+    400114: Base HumanSpine3
+    400116: Base HumanSpine4
+    400118: Bone001
+    400120: Bone002
+    400122: Bone003
+    400124: Bone004
+    400126: Bone005
+    400128: Bone006
+    400130: Bone007
+    400132: Bone008
+    400134: Bone009
+    400136: Bone010
+    400138: Bone011
+    400140: Bone012
+    400142: Bone013
+    400144: Bone014
+    400146: Bone015
+    400148: Bone016
+    400150: Bone017
+    400152: Bone018
+    400154: Bone019
+    400156: Bone020
+    400158: Bone021
+    400160: Bone022
+    400162: Bone023
+    400164: Bone024
+    400166: Bone025
+    400168: Bone026
+    400170: Bone027
+    400172: Bone028
+    400174: Bone029
+    400176: Bone030
+    400178: Bone031
+    400180: Bone032
+    400182: Bone033
+    400184: Bone034
+    400186: Bone035
+    400188: Bone036
+    400190: Bone037
+    400192: Bone038
+    400194: Bone039
+    400196: Bone040
+    400198: Bone041
+    400200: Bone042
+    400202: kamimi
+    400204: karada
+    400206: kuchi001
+    400208: kuchi002
+    400210: kuchinonaka
+    400212: light001
+    400214: Line001
+    400216: Line007
+    400218: Line008
+    400220: mayuge
+    400222: me001
+    400224: me002
+    400226: me005
+    400228: me006
+    400230: nuno
+    400232: Plane002
+    400234: Plane003
+    400236: Plane004
+    400238: Plane005
+    400240: Plane006
+    400242: Plane007
+    400244: Sphere002
+    400246: Spot001
+    400248: Spot001.Target
+    400250: Spot002
+    400252: Spot002.Target
+    400254: Spot003
+    400256: Spot003.Target
+    2100000: karada
+    2100002: komono
+    2100004: atama
+    2100006: kami
+    2100008: 08 - Default
+    2100010: kuchi
+    2100012: 01 - Default
+    2300000: kamimi
+    2300002: kuchi001
+    2300004: kuchi002
+    2300006: kuchinonaka
+    2300008: Line001
+    2300010: mayuge
+    2300012: me001
+    2300014: me002
+    2300016: me005
+    2300018: me006
+    2300020: Plane002
+    2300022: Plane003
+    2300024: Plane004
+    2300026: Plane005
+    2300028: Plane006
+    2300030: Plane007
+    3300000: kamimi
+    3300002: kuchi001
+    3300004: kuchi002
+    3300006: kuchinonaka
+    3300008: Line001
+    3300010: mayuge
+    3300012: me001
+    3300014: me002
+    3300016: me005
+    3300018: me006
+    3300020: Plane002
+    3300022: Plane003
+    3300024: Plane004
+    3300026: Plane005
+    3300028: Plane006
+    3300030: Plane007
+    4300000: karada
+    4300002: atama
+    4300004: Line007
+    4300006: Line008
+    4300008: nuno
+    4300010: kuchi001
+    4300012: me001
+    4300014: mayuge
+    4300016: me002
+    4300018: kuchi002
+    4300020: kamimi
+    4300022: me005
+    4300024: me006
+    4300026: kuchinonaka
+    4300028: Sphere002
+    4300030: Plane005
+    4300032: Line001
+    4300034: Plane007
+    4300036: Plane002
+    4300038: Plane004
+    4300040: Plane003
+    4300042: Plane006
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Spot001
+    10800002: Spot002
+    10800004: Spot003
+    13700000: atama
+    13700002: karada
+    13700004: Line007
+    13700006: Line008
+    13700008: nuno
+    13700010: Sphere002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: d8be2dce24c1814489a4ae484854c2a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: df649c14cfb82b445a7eac107bf283c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: atama
+    second: {fileID: 2100000, guid: e7e10a135e3f89d419dfd73613e54621, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kami
+    second: {fileID: 2100000, guid: a2c3f2ab76944ae47bd951bafa963acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: karada
+    second: {fileID: 2100000, guid: eb55ae3b16f58ab4984fbac7b2d5b751, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: komono
+    second: {fileID: 2100000, guid: 77292deb0136c0640b7a893625cd8036, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kuchi
+    second: {fileID: 2100000, guid: 89f627669969621449b220a8fb1cf9f4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u5C0F\u7269"
+    second: {fileID: 2800000, guid: 8f1dc079abe3f77499862a634fbc275c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u7C60"
+    second: {fileID: 2800000, guid: fe19dc72ded227144b144dda8df73395, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u7C60-\u4E0D\u900F\u660E\u5EA6"
+    second: {fileID: 2800000, guid: 0afa15ea01221a04481c76459a3795cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u8EAB\u4F53"
+    second: {fileID: 2800000, guid: 9bb96ae18d4ad8f4b90d9a99a41f70be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u982D"
+    second: {fileID: 2800000, guid: 80d4a11f21a819d479719fa65dd54c89, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u982D-\u4E0D\u900F\u660E\u5EA6"
+    second: {fileID: 2800000, guid: e127edc0156eed64fb00beedf22c0bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u9AEA"
+    second: {fileID: 2800000, guid: d0013fd00af0c2746a74c2d631954de2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u9AEA-\u4E0D\u900F\u660E\u5EA6"
+    second: {fileID: 2800000, guid: 08001bfa4257df444b3fe57afa1f3314, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u9AEA\u7559\u3081"
+    second: {fileID: 2800000, guid: 77533e7d84b95a544912d03cb392e849, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
