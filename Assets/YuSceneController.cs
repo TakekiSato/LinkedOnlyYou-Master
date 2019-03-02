@@ -10,7 +10,7 @@ public class YuSceneController : MonoBehaviour, ISceneManager
     {
         Debug.Log("YuScene_Initialize");
         //TransScene();
-        a = Main.instance.select;
+        //a = Main.instance.select;
     }
 
     public void TransScene()
