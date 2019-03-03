@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 9d4d9467f20374f4bb3e14f64a255583
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ASI001
+    100002: Box002
+    100004: Box003
+    100006: Box004
+    100008: bureza-
+    100010: eri
+    100012: eri001
+    100014: eri_2
+    100016: ka-dhigan_sode
+    100018: ka-dhigan_sode002
+    100020: Particle View 001
+    100022: Plane001
+    100024: Plane002
+    100026: //RootNode
+    100028: seihuku
+    100030: sode
+    100032: sode002
+    100034: sode_botan
+    100036: sode_botan002
+    100038: suatu_eri
+    100040: zubon
+    100042: "\u30CF\u30F3\u30AC\u30FC"
+    100044: "\u5236\u670D"
+    400000: ASI001
+    400002: Box002
+    400004: Box003
+    400006: Box004
+    400008: bureza-
+    400010: eri
+    400012: eri001
+    400014: eri_2
+    400016: ka-dhigan_sode
+    400018: ka-dhigan_sode002
+    400020: Particle View 001
+    400022: Plane001
+    400024: Plane002
+    400026: seihuku
+    400028: //RootNode
+    400030: sode
+    400032: sode002
+    400034: sode_botan
+    400036: sode_botan002
+    400038: suatu_eri
+    400040: zubon
+    400042: "\u30CF\u30F3\u30AC\u30FC"
+    400044: "\u5236\u670D"
+    2100000: 'Material #173'
+    2100002: 'Material #187'
+    2100004: No Name
+    2100006: 'Material #188'
+    2100008: hanger
+    2300000: Box002
+    2300002: Box003
+    2300004: Box004
+    2300006: bureza-
+    2300008: eri
+    2300010: eri001
+    2300012: eri_2
+    2300014: ka-dhigan_sode
+    2300016: ka-dhigan_sode002
+    2300018: Plane001
+    2300020: Plane002
+    2300022: sode
+    2300024: sode002
+    2300026: sode_botan
+    2300028: sode_botan002
+    2300030: suatu_eri
+    2300032: zubon
+    2300034: "\u30CF\u30F3\u30AC\u30FC"
+    3300000: Box002
+    3300002: Box003
+    3300004: Box004
+    3300006: bureza-
+    3300008: eri
+    3300010: eri001
+    3300012: eri_2
+    3300014: ka-dhigan_sode
+    3300016: ka-dhigan_sode002
+    3300018: Plane001
+    3300020: Plane002
+    3300022: sode
+    3300024: sode002
+    3300026: sode_botan
+    3300028: sode_botan002
+    3300030: suatu_eri
+    3300032: zubon
+    3300034: "\u30CF\u30F3\u30AC\u30FC"
+    4300000: Box004
+    4300002: bureza-
+    4300004: sode
+    4300006: zubon
+    4300008: sode_botan
+    4300010: eri_2
+    4300012: eri
+    4300014: eri001
+    4300016: sode_botan002
+    4300018: Plane001
+    4300020: Box002
+    4300022: Box003
+    4300024: Plane002
+    4300026: ka-dhigan_sode
+    4300028: ka-dhigan_sode002
+    4300030: sode002
+    4300032: suatu_eri
+    4300034: "\u30CF\u30F3\u30AC\u30FC"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #173'
+    second: {fileID: 2100000, guid: 8433d14e59a02334a8aac3e42b33f547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #187'
+    second: {fileID: 2100000, guid: 1fe439a644cc73a49a9f619af0cdbd6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #188'
+    second: {fileID: 2100000, guid: cb249dceb1c872a48857b08c53656d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c393ad9b07773894e903d1fdc2aa432a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hanger
+    second: {fileID: 2100000, guid: 0acef610d48349d498a703441b31389d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tshirt_hanger_BaseColor
+    second: {fileID: 2800000, guid: f6bb7931208b7584d91608a77a4ce2b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tshirt_hanger_Metallic
+    second: {fileID: 2800000, guid: 9ccf222f5ac224c4b93c8d3fdb6c692b, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -24,7 +24,8 @@ public class SoundManager : MonoBehaviour
         COMMON_2,
         ED_1,
         ED_2,
-        COMMON_3
+        COMMON_3,
+        SELECT_SE
     }
 
     void Awake()
